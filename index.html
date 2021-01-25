@@ -14,15 +14,12 @@
         <link rel="stylesheet" href="css/UXPortfolioStyle.css">
         <link rel="stylesheet" href="css/UXPortfolioStyle-mobile.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script type="text/javascript">
+        <script src="/js/universal.js"></script>
+        <script>
             <!--
             if (screen.width <= 970) {
             document.location = "mIndex.html";
             };
-            $(function(){
-                $("#header").load("universal/header.html");
-                $("#social").load("universal/footer.html");
-                });
            
         </script>
         <style>
@@ -30,6 +27,10 @@
             #about h1{
                 font-family: raleway;
                 font-size: 2v;
+            }
+
+            #bgImage img::before {
+                background-image: url(images/profileheadSM.png);
             }
 
             #ink {
@@ -56,6 +57,7 @@
         </header>
         <section id="intro">
             <div id="bgImage">
+
                 <img src="images/profilehead.png" />
             </div>
             <div id="hello">
