@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>D. Scott Clark UX/UI Designer</title>
+        <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/UXPortfolioStyle.css">
+        <link rel="stylesheet" href="css/UXPortfolioStyle-mobile.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/universal.js"></script>
+        
+        <style>
+            body {
+                background-color: #252526;
+            }
+            
+            #hello {
+                background-color: #252526;
+                width: 100%;
+                margin-bottom: -84px;
+                overflow-y: scroll;
+                min-height: 100%;
+                    
+            }
+            .contact {
+                font-family: montserrat;
+                font-weight: 200;
+                font-size: .75em;
+                color: #ededed;
+                width: fit-content;
+                position: absolute;
+                top:12%;
+                left: 50%;
+                transform: translate(-50%);
+                text-align: center;
+                padding-bottom: 8rem;
+            }
+            #hello h1 {
+                width: 500px;
+                text-align: center;
+                right: 50%;
+                transform: translate(50%);
+                font-size: 3rem;
+                top:0px;
+                position: relative;
+                
+            }
+            #hello h2 {
+                font-size: 1.5em;
+                font-family: raleway;
+            }
+
+            #contactSocial {
+                position: relative;
+            }
+
+            #contactSocial ul {
+                display: inline-block;
+                margin:0;
+                padding:0 0 0 .8rem;
+            }
+
+            #contactSocial li {
+                padding:0 10px 0 0
+            }
+
+            #contactSocial a{
+                padding:0;
+                height: fit-content;
+            }
+
+            #contactSocial a:hover {
+                filter:opacity(.5)
+            }
+
+            #contactSocial img{
+                position: unset;
+                left: auto;
+                top:auto;
+                transform: rotate(0);
+                width:30px;
+                filter: invert(1) opacity(.9);;
+            }
+
+            #push {
+                height: 84px;
+            }
+
+            #social {
+                bottom:0;
+                position: absolute;
+                top:unset;
+            }
+            
+            @media (max-width: 1080px) {
+                .contact {
+                    line-height: 2
+                }
+                
+            }
+            @media (max-width: 640px) {
+                #hello h1 {
+                    left:auto;
+                }
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            
+                 
+        </header>
+        <section id="hello">
+            
+            <div class="contact">
+                <h1>Get in Touch</h1>
+                <h2>location</h2>
+                [ denver, co ]
+                <h2>phone</h2>
+                [ 812.381.3800 ]
+                <h2>email</h2>
+                [ dscottclark.design@gmail.com ]
+                <h2>social</h2>
+                <div id="contactSocial">
+                    <ul>
+                        
+                        <li>
+                            <a href="https://www.instagram.com/dscottclarkphoto/" target="_blank"><img src="icons/instagram.svg"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/dscottclarkdesign/" target="_blank"><img src="icons/linkedin.svg"></a>
+                        </li>
+                        
+                        
+                    </ul>
+                
+                </div>
+            </div>
+            <div class="push"></div>
+        </section>
+        <footer id="social">
+            
+        </footer>
+        
+    </body>
+</html>

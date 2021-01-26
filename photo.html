@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>D. Scott Clark UX/UI Designer</title>
+        <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
+        <meta property="og:image" content="images/doi.jpg" />
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/UXPortfolioStyle.css">
+        <link rel="stylesheet" href="css/UXPortfolioStyle-mobile.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/universal.js"></script>
+
+        <style>
+            #social {
+                position: fixed;
+                bottom:0;
+                top:auto;
+            }
+
+            #photoContent {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: flex-start;
+                width:80%;
+                max-width: 2000px;
+                margin: 0 auto;
+                top:6rem;
+            }
+
+            #photoContent > div {
+                margin:1rem;
+            }
+
+            #photographer {
+                position: sticky;
+                top:7rem;
+                left:0;
+                right:0;
+                overflow: scroll;
+                width: 35%;
+            }
+
+            #sitePreview {
+                padding:2.25rem 0 6rem;
+                width:50%;
+                max-width:850px;
+                display: block;
+                
+            }
+
+            #sitePreview img {
+                width:45vw;
+                max-width: 850px;
+            }
+
+            #photoBig {
+                    display: block;
+                }
+            #photoSmall {
+                display: none;
+            }
+
+            @media (max-width: 1310px) {
+                #photoContent {
+                    width:90%
+                }
+
+                #photoContent a {
+                    color:#6A79FF;
+                }
+                
+                #photographer { width:40%;
+                }
+            }
+
+            @media (max-width: 1230px) {
+                #photographer { width:45%;
+                }
+            }
+
+            
+            @media (max-width: 1080px) {
+                #photoContent {
+                    width:95%
+                }
+                
+                #photographer { width:50%;
+                }
+                
+                #social {
+                    padding-bottom: 2rem;
+                }
+            }
+
+            @media (max-width: 914px) {
+                #photoContent {
+                    flex-wrap: wrap;
+                    top:4rem;
+                }
+
+                #photographer {
+                    position: unset;
+                    width:80%;
+                }
+
+                #sitePreview {
+                    width:100%;
+                    min-width: 360px;
+                    padding-bottom:11rem;
+
+                }
+                #sitePreview img {
+                    width:80vw;
+                    min-width: 360px;
+                    margin:0 auto;
+                    
+                }
+
+                #photoBig {
+                    display: none;
+                }
+                #photoSmall {
+                    display: block;
+                }
+
+                #social {
+                    position: relative;
+                }
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            
+        </header>
+        <section id="photoContent">
+            <div id="photographer">
+                <h2>
+                    I am also a photographer
+                </h2>
+                <p>
+                    Since 2008, I’ve run my own freelance commercial lifestyle photography business and was quite happy with my career. I have been interested in studying UX and UI for years but couldn’t justify taking time away from my growing business.</p>
+
+                    <p>Then came 2020, a weird year for everyone. I started the year full of inspiration and gusto for moving my business into  larger markets and capitalizing on some big name clients I had shot projects for in 2019 - but then everything screeched to a halt, kicking off a tumultuous year that almost no-one expected. </p>
+
+                    <p>With companies’ budgets frozen and no-one shooting in-person lifestyle photography, I thought, what better time to go to school! Now I have the skills to do two things that I love, and with my decade plus of experience working with companies and advertizing firms, I have a unique perspective and ability to combine those skills for designing killer UIUX products.</p>
+
+                    <p>Take a look at my photography portfolio: 
+                    <a href="https://www.dscottclarkphoto.com/" target="_blank">dscottclarkphoto.com</a>
+                </p>
+            </div>
+            <div id="sitePreview">
+                <a href="https://www.dscottclarkphoto.com/" target="_blank"><img id="photoBig"  src="images/photography.jpg"><img id="photoSmall" src="images/photographyFade.jpg"></a>
+            </div>
+        </section>
+        <footer id="social">
+            
+        </footer>
+    </body>
+</html>
