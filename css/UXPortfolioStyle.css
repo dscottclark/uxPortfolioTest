@@ -312,7 +312,8 @@ li a:hover {
 }
 
 #portfolio img:hover {
-    opacity: .9;
+    margin-top:-2rem;
+    padding-bottom: 2rem;
 }
 
 a.portfolioAnchor {
