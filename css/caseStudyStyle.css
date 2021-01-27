@@ -25,12 +25,20 @@ li a:hover {
     background-repeat: no-repeat;
     height: 45vw;
 }
+#intro img {
+    width: 45%;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 23%;
+}
 
 .heroText {
     position: relative;
     text-align: center;
     width: 100vw;
-    top:31vw;
+    top:12vw;
     
 }
 
