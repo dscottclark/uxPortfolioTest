@@ -344,13 +344,13 @@ li a:hover {
     background-color: #171717;
 }
 
-#portfolio img {
+.heroImage {
     transition: all .3s ease-in-out;
+
 }
 
-#portfolio img:hover {
-    margin-top:-2rem;
-    padding-bottom: 2rem;
+.heroImage:hover {
+    margin-top:-1rem;
 }
 
 a.portfolioAnchor {
@@ -406,7 +406,7 @@ a.portfolioAnchor {
     color:#f9f9f9;
     background-color: rgba(255,255,255,.05);
 }
-#port01 {
+.one {
     background-color: #2b2b2d;
     overflow: auto;
     width: 100%;
@@ -434,10 +434,9 @@ a.portfolioAnchor {
 .mobile {
     position:absolute;
     transform: rotate(-11deg);
-    top:6.5em;
     width: 40%;
     left:70%;
-    margin: auto;
+    margin: 6.5em auto;
 }
 .mobile img{
     width:30%;
@@ -446,7 +445,7 @@ a.portfolioAnchor {
 }
 
 
-#port02 {
+.two {
     position: relative;
     background-color: #252526;
     overflow: hidden;
@@ -476,17 +475,16 @@ a.portfolioAnchor {
 .mobile02 {
     position:absolute;
     transform: rotate(-11deg);
-    top:6em;
     width: 40%;
     left:71%;
-    margin: auto;
+    margin: 6em auto;
 }
 .mobile02 img{
     width:30%;
     filter: drop-shadow(-20px 20px 20px rgb(0,0,0,.5));
 }
 
-#port03 {
+.three {
     position: relative;
     background-color: #2b2b2d;
     overflow: hidden;
@@ -512,7 +510,7 @@ a.portfolioAnchor {
 #ink img {
     width: 55%;
 }
-#port04 {
+.four {
     position: relative;
     background-color: #252526;
     overflow: hidden;
@@ -524,7 +522,7 @@ a.portfolioAnchor {
 #travelize {
     position: absolute;
     left: 40%;
-    top:40px;
+    margin:40px 0;
 }
 #travelize li {
     display: block;
