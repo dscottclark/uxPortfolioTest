@@ -19,26 +19,32 @@ li a:hover {
 }
 #intro {
     height: unset;
+    width: 100%;
     background-color: unset;
     top:0;
     background-size:cover ;
     background-repeat: no-repeat;
     height: 45vw;
 }
-#intro img {
+
+
+
+
+.heroDesktop {
     width: 45%;
-    margin: 0 auto;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    top: 23%;
+    padding-bottom: 2rem;
+}
+
+.heroMobile {
+    width:23%;
+    padding-bottom: 2rem;
 }
 
 .heroText {
     position: relative;
     text-align: center;
     width: 100vw;
-    top:12vw;
+    top:10vw;
     
 }
 
@@ -123,6 +129,10 @@ li a:hover {
     max-width:1800px ;
 }
 
+.img100 {
+    width: 100%;
+}
+
 #sect01 {
     width:100%;
     position: relative;
@@ -151,6 +161,13 @@ li a:hover {
     background-color: #eee;
     padding: 2rem 0 5rem 0;
     margin-bottom: -2.5rem;
+}
+
+#sect04 h3 {
+    font-family: raleway;
+    font-size: 2rem;
+    font-weight: 900;
+    color:#222
 }
 
 
@@ -328,7 +345,7 @@ li a:hover {
     
 }
 
-@media (max-width:640px) {
+@media only screen and (max-width:640px) {
     
     #headerBG{
         display: none;
@@ -340,14 +357,25 @@ li a:hover {
     }
 
     .heroText {
-        top:58vw;
+        top:18vw;
+    }
+
+    .heroDesktop {
+        width: 65%;
+        padding-bottom: 0;
+    }
+
+    .heroMobile {
+        width: 39%;
+        padding-bottom: 1rem;
     }
 
     .heroText h1 {
-        font-size: 10vw;
+        font-size: 9vw;
+        text-align: center;
     }
     .heroText h3 {
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
 
     #csMenu {
@@ -420,6 +448,8 @@ li a:hover {
     .imgRight {
         margin:1rem;
     }
+
+    
 
     #sect01 {
         padding-bottom: 3rem;

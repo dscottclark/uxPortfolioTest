@@ -11,7 +11,7 @@
         <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
         <link rel="icon" type="image/png" href="images/favicon.png"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;900&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
         <link rel="icon" 
           type="image/png" 
           href="https://design.dscottclark.com/portfolio/images/favicon.png">
@@ -86,6 +86,29 @@
                 display: inline-block;
                 
             }
+
+            #affinity {
+                background-color:#331991ff;
+                height: max-content;
+                display: grid;
+                grid-template-columns: 2fr 3fr;
+                margin:2rem 0 0 0;
+            }
+
+            #affinity h3 {
+                padding-left:2rem;
+                color:#ededed;
+            }
+
+            #userPersonas {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
+            }
+            
+
+
+
             #prototype {
                 font-size: 24px;
                 font-weight:400;
@@ -213,6 +236,7 @@
             <div id="intro">
                 
                 <div class="heroText">
+                    <img class="heroMobile" src="images/Travelize/mock.webp">
                     <h1>Travelize</h1>
                     <h3>mobile travel booking app concept</h3>
                 </div>
@@ -225,7 +249,7 @@
             </div>
             <div class="dropdown">
                 <ul>
-                    <li><a href="#proto">proto persona</a></li>
+                    <li><a href="#empathy">empathy</a></li>
                     <li><a href="#affinity">affinity diagram</a></li>
                     <li><a href="#empathy">empathy map</a></li>
                     <li><a href="#story">story board</a></li>
@@ -236,55 +260,89 @@
                 </ul>
             </div>
         </nav>
-        <section id="portfolioContent">
-            
-            <div id="caseStudy">
-                     
-                <img src="images/Travelize/caseStudy/01%20Intro.jpg" alt="Project Overview">
-                
-                <img src="images/Travelize/caseStudy/02%20User%20Research.jpg" alt="Select Problems">
-                <a class="anchor" name="User Research"></a>
-                
-                <img src="images/Travelize/caseStudy/03%20Proto%20Persona.jpg" alt="Proto Persona">
-                
-                <a class="anchor" name="affinity"></a>
-                
-                <a href="https://miro.com/app/board/o9J_km_5ITY=/">
-                
-                    <img src="images/Travelize/caseStudy/04%20Interview%20Plan.jpg" alt="Affinity Diagram">
-                    
-                </a>
-                
-                <a class="anchor" name="empathy"></a>
-                
-                <img  src="images/Travelize/caseStudy/05%20Empathy%20Map.jpg" alt="Empathy Map">
-                
-                <a class="anchor" name="story"></a>
-                
-                <img src="images/Travelize/caseStudy/06%20Storyboard.jpg" alt="Storyboard">
-                
-                <a class="anchor" name="journey"></a>
+        <section id="caseStudyContent">
+            <section id="sect01" alt="overview">
+                <div class="textContainer">
+                    <h2>About the Project</h2>
+                    <h4>Problem</h4>
+                    <p>
+                        Travel has become too convoluted. Customers are frustrated with booking too many parts of their travel through different apps with reservations in many different locations. They want to spend their limited budgets on activities  and cultural experiences rather than splurge on flights and hotels. 
+                    </p>
 
-                <img src="images/Travelize/caseStudy/07%20UserJourney%20Map.jpg" alt="User Journey Map">
-                
-                <a class="anchor" name="competitor"></a>
-                
-                <img src="images/Travelize/caseStudy/08%20Comp.%20Analysis.jpg" alt="Competitor Analysis">
-                
-                <a class="anchor" name="flow"></a>
-                
-                <a href="https://miro.com/app/board/o9J_kkpw3AY=/">
-                
-                    <img src="images/Travelize/caseStudy/09%20User%20Flow.jpg" alt="User Flow">
+                    <h4>Solution</h4>
+                    <p>
+                        Travelize prioritizes rich cultural experiences over fancy hotels and flights  with a quick and easy reservation experience, beginning to end. We make it easy to change plans inside the app, avoiding the need to ever call customer service.  
+                    </p>
+
+                    <h4>My Role</h4>
+
+                    <p>I collaborated with another UX designer on the empathy, definition, and ideation phases of the project, then I planned, wireframed, and prototyped the UI.  
+                    </p>
+
+                    <h4>Tools:</h4>
+
+                    <ul>
+                        <li>Figma</li>
+                        <li>Miro</li>
+                        <li>Adobe Photoshop</li>
+                    </ul>
+                </div>
+            </section>
+            <a class="portfolioAnchor"  name="empathy" ></a>
+            <section id="sect02" class="sectionHeader">
+                <div class="textContainer">
+                    <h1>Empathy</h1>
+                </div>
+            </section>
+            <section id="sect03" alt="DesignProcess">
+                <div class="textContainer">
+                        <h2>The Design Process</h2>
+                        <p>Through the Design Process, we were able empathize with potential users, define the user flows and key requirements, brainstorm new ideas, and prototype a new design.
+                        </p>
+
+                        <img class="imgFull" src="images/Travelize/caseStudy/designProcess.svg">                    
+                </div>
+            </section>
+            <section id="sect04" alt="Personas">
+                <div class="textContainer">
+                    <h2>User Research</h2>
+                    <p>For this project, we created a proto persona as well as planned and conducted 5 interviews with potential users throughout the United States. From this, we were able to create an affinity diagram and an empathy map that led us to our User Personas.   </p>
+                    <div class="svg100">
+                        <img src="images/Travelize/caseStudy/protoPersona.svg">
+                    </div>
                     
-                </a>
-                
-                <img src="images/Travelize/caseStudy/10%20User%20Research.jpg" alt="User Research">
-                
-                <a class="anchor" name="wire"></a>
-                
-                <img src="images/Travelize/caseStudy/11%20Wireframes.jpg" alt="Wireframes">
-                
+                    <div id="affinity">
+                        <h3>Affinity Diagram</h3>
+                        <img class="img100" src="images/Travelize/caseStudy/affinityMap.jpg">
+                        
+                    </div>
+                    <img class="img100" src="images/Travelize/caseStudy/empathyMap.jpg">
+                    <h3>User Personas</h3>
+                    <div id="userPersonas">
+                        <div class="person greg">
+                            <img src="images/Travelize/caseStudy/userPersonas/greg.jpg">
+
+                        </div>
+                        <div class="person lauren">
+                            <img src="images/Travelize/caseStudy/userPersonas/lauren.jpg">
+                        </div>
+                        <div class="person nikki">
+                            <img src="images/Travelize/caseStudy/userPersonas/Nikki.jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
                 <div id="prototype">
                     <a href="https://www.figma.com/proto/77jGDlGOBoTBWlsInD0lmM/Travelize-Travel-App?node-id=126%3A3022&scaling=scale-down" target="_blank">Play with the prototype</a>
                     <img src="icons/chevron-right.svg" /></div>
