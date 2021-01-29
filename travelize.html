@@ -87,26 +87,57 @@
                 
             }
 
+            .affinityWide {
+                width:100%;
+                display: flex;
+                
+            }
+
             #affinity {
                 background-color:#331991ff;
                 height: max-content;
                 display: grid;
-                grid-template-columns: 2fr 3fr;
-                margin:2rem 0 0 0;
+                grid-template-columns: 1fr 3fr;
+                margin:0;
+                width: 46%;
+                font-size: 1.7rem;
+                box-shadow: 5px 5px 5px rgba(0,0,0,.25);
             }
 
             #affinity h3 {
-                padding-left:2rem;
+                text-align: center;
                 color:#ededed;
+                font-weight: 900;
+                padding-top: 2rem;
+                background-color: #331991ff;
+            }
+            #affinity img{
+                width: 100%;
+            }
+
+            
+            
+
+            #empathyMap {
+                width:55%;
+            }
+            #empathyMap img{
+                width:100%;
             }
 
             #userPersonas {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
-
+                width:850px;
+                margin:0 auto;
             }
             
-
+            h3.heavy {
+                font-size:1.7rem;
+                font-weight: 900;
+                text-align: center;
+                color: #222;
+            }
 
 
             #prototype {
@@ -133,6 +164,62 @@
 
             }
 
+            .greg .personaOverlay {
+                position: absolute;
+                margin:1rem 2000px;
+                z-index: 100;
+                opacity: 1;
+                transition: all 300ms ease-in-out;
+                
+            }
+
+            .greg:hover .personaOverlay {
+                opacity: 1;
+                margin:10px 20px;
+            }
+
+            .greg:hover .fade {
+                opacity: .85;
+            }
+
+            .lauren .personaOverlay {
+                position: absolute;
+                margin:10px 2000px;
+                z-index: 100;
+                opacity: 0;
+                transition: all 300ms ease-in-out;
+
+            }
+
+            .lauren:hover .personaOverlay {
+                opacity: 1;
+                margin:10px -264px;
+            }
+
+            .lauren:hover .fade {
+                opacity: .85;
+            }
+
+            .nikki .personaOverlay {
+                position: absolute;
+                margin:10px 2000px;
+                z-index: 100;
+                opacity: 0;
+                transition: all 300ms ease-in-out;
+
+            }
+
+            .nikki:hover .personaOverlay {
+                opacity: 1;
+                margin:10px -547px;
+            }
+
+            .nikki:hover .fade {
+                opacity: .85;
+            }
+
+            
+
             @media  (max-width: 1248px) {
                 #csMenu { 
                     height: 74px;
@@ -140,29 +227,7 @@
             }
             
             @media  (max-width: 1080px) {
-                #csMenu { 
-                    top:55vw; 
-                    height: 150vw;
-                }
                 
-                #csMenu ul{
-                    width:fit-content;
-                    padding: 0;
-                    display: inline-grid;
-                    text-align: center;
-                    top:1rem;
-                    position: absolute;
-                }
-                
-                #csMenu li {
-                    display: inline-block;
-                    float: none;
-                    text-align: center;
-                }
-                #caseStudy {
-                    top:106vw;
-                    width:100%
-                }
                 iframe {
                     display: none;
                 }
@@ -204,18 +269,6 @@
                     margin-bottom: 1rem;
                 }
                 
-                #csMenu {
-                    top:182vw;
-                    height: 155vw;
-                }
-                
-                #csMenu li {
-                    width: 100% !important;
-                }
-                
-                #caseStudy {
-                    top:338vw;
-                }
                 
                 #prototype {
                     height: 150px;
@@ -256,7 +309,7 @@
             <div class="dropdown">
                 <ul>
                     <li><a href="#empathy">empathy</a></li>
-                    <li><a href="#affinity">affinity diagram</a></li>
+                    <li><a href="#definition">defintion</a></li>
                     <li><a href="#empathy">empathy map</a></li>
                     <li><a href="#story">story board</a></li>
                     <li><a href="#journey">User Journey Map</a></li>
@@ -316,27 +369,76 @@
                     <div class="svg100">
                         <img src="images/Travelize/caseStudy/protoPersona.svg">
                     </div>
-                    
+                </div>
+            </section>
+            <section id="sect01" alt="affinity">
+                <div class="affinityWide">    
                     <div id="affinity">
                         <h3>Affinity Diagram</h3>
-                        <img class="img100" src="images/Travelize/caseStudy/affinityMap.jpg">
+                        <img src="images/Travelize/caseStudy/affinityMap.jpg">
+                       
                         
                     </div>
-                    <img class="img100" src="images/Travelize/caseStudy/empathyMap.jpg">
-                    <h3>User Personas</h3>
-                    <div id="userPersonas">
-                        <div class="person greg">
-                            <img src="images/Travelize/caseStudy/userPersonas/greg.jpg">
-
-                        </div>
-                        <div class="person lauren">
-                            <img src="images/Travelize/caseStudy/userPersonas/lauren.jpg">
-                        </div>
-                        <div class="person nikki">
-                            <img src="images/Travelize/caseStudy/userPersonas/Nikki.jpg">
-                        </div>
-
+                    <div id="empathyMap">
+                        <img src="images/Travelize/caseStudy/empathyMap.jpg">
                     </div>
+                </div>
+                <h3 class="heavy">User Personas</h3>
+                <div id="userPersonas">
+                    <div class="person greg">
+                        <img class="fade" src="images/Travelize/caseStudy/userPersonas/greg.jpg">
+                        <div class="personaOverlay greg">
+                            <img src="images/Travelize/caseStudy/userPersonas/Gregg.svg">
+                        </div>
+                    </div>
+                    <div class="person lauren">
+                        <img class="fade" src="images/Travelize/caseStudy/userPersonas/lauren.jpg">
+                        <div class="personaOverlay lauren">
+                            <img src="images/Travelize/caseStudy/userPersonas/Lauren.svg">
+                        </div>
+                    </div>
+                    <div class="person nikki">
+                        <img class="fade" src="images/Travelize/caseStudy/userPersonas/Nikki.jpg">
+                        <div class="personaOverlay nikki">
+                            <img src="images/Travelize/caseStudy/userPersonas/Nikki.svg">
+                        </div>
+                    </div>
+
+                </div>
+            </section>    
+            <a class="portfolioAnchor"  name="definition" ></a>
+            <section id="sect02" class="sectionHeader">
+                <div class="textContainer">
+                    <h1>Definition</h1>
+                </div>
+            </section>
+            <section id="sect01" alt="Problem">
+                <div class="textContainer">
+                    <h2>Problem Statement</h2>
+                    <p>During our research & user interviews, we found that people are frustrated with travel booking websites and apps. They want to be able to plan multi-destination travel, book all parts of travel within one app, have all their plans and info in one place and experiences within one app, and never want to have to talk to a human. </p>
+                    <p>
+                    We think that Travelize can streamline the travel booking experience, simplifying the process while providing better search, planning, and information retrieval options. 
+                    </p>
+                    
+                </div>
+            </section>
+            <section id="sect04" class="storyboard">
+                <div class="textContainer">
+                    <h2>Storyboard</h2>
+                    <img src="images/Travelize/caseStudy/storyboard.jpg">
+                    
+                </div>
+            </section>
+            <section id="sect01" alt="User Flow">
+                <div class="textContainer">
+                    <h2>User Flow</h2>
+                    <img class="imgFull" src="images/Travelize/caseStudy/userFlow.svg">
+                </div>
+                
+            </section>
+            <section id="sect02" class="sectionHeader">
+                <div class="textContainer">
+                    <h1>Ideation</h1>
                 </div>
             </section>
 
@@ -344,11 +446,7 @@
 
 
 
-
-
-
-
-
+            <!--
                 <div id="prototype">
                     <a href="https://www.figma.com/proto/77jGDlGOBoTBWlsInD0lmM/Travelize-Travel-App?node-id=126%3A3022&scaling=scale-down" target="_blank">Play with the prototype</a>
                     <img src="icons/chevron-right.svg" /></div>
@@ -356,6 +454,7 @@
                 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="900px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F77jGDlGOBoTBWlsInD0lmM%2FTravelize-Travel-App%3Fnode-id%3D126%253A3022%26viewport%3D560%252C108%252C0.16873709857463837%26scaling%3Dscale-down" allowfullscreen></iframe>
                 
             </div>
+        -->
         </section>
 
         <footer id="social">

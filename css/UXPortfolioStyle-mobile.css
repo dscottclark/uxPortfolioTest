@@ -282,40 +282,7 @@
     }
     
     /* Dept of Interior Tablet */
-    /*
-    .DOIdesktop {
-        width:60%;
-        left:23%;
-    }
-    .DOImobile {
-        top:11.8em;
-        width: 47%;
-        left: 68%;
-    }
     
-    .title {
-        position: absolute;
-        left: 2em;
-        top:2em;
-        width: auto;
-    }
-    
-    .title h1 {
-        font-size: 2em;
-        left:10%;
-        top:5%;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .title h3 {
-        font-size: 1.3em;
-        left:10%;
-        top:7em;
-        padding: 0;
-        width: 10em
-    }
-    */
     #csMenu {
         width: 100%;
         top:35em;
@@ -666,6 +633,13 @@
     .images ul {
         left: 0 !important;
         transform: translate(-.5rem) !important;
+    }
+
+    #social {
+        height: 16rem;
+        width: 100%;
+        background-color: #19191b;
+
     }
     #social ul{
         padding:2rem;
