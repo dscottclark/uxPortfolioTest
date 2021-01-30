@@ -115,6 +115,11 @@ li a:hover {
     padding-bottom: 5rem;
 }
 
+.svg100 {
+    width:100%; 
+    max-width: 2000px;
+}
+
 .svg100 img{
     width: 100%;
     max-width: 2000px;
@@ -128,7 +133,9 @@ li a:hover {
     width: 100%;
     max-width:1800px ;
 }
-
+.imgFull img{
+    width:100%;
+}
 .img100 {
     width: 100%;
 }
@@ -136,7 +143,7 @@ li a:hover {
 #sect01 {
     width:100%;
     position: relative;
-    padding-bottom: 5rem;
+    padding: 3rem 0 5rem;
 }
 
 
@@ -159,8 +166,8 @@ li a:hover {
 #sect04 {
     width:100%;
     background-color: #eee;
-    padding: 2rem 0 5rem 0;
-    margin-bottom: -2.5rem;
+    padding: 2rem 0 6rem 0;
+    margin-bottom: -3rem;
 }
 
 #sect04 h3 {
@@ -380,7 +387,7 @@ li a:hover {
     #csMenu {
 
         display: block;
-        top:0;
+        top:-1px;
         height: 50px;
         cursor: pointer;
     }
