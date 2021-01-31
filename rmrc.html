@@ -530,7 +530,7 @@
             </section>
             <section id="sect05" alt="heroSpread">
                 
-                <div class="heroImage">
+                <div class="CSheroImage">
                     <div class="hideDesktop">
                         <img src="images/RMRC/caseStudy/hero/heroBG.jpg">
                     </div>
@@ -646,6 +646,15 @@
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+        </script>
+        <div class="preloader">
+        </div>
+        <script>
+            function fade(){
+            $(".preloader").fadeOut("slow");
+            };
+
+            setTimeout(fade, 500);
         </script>
     </body>
     </html>

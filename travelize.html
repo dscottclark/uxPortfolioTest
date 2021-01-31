@@ -218,13 +218,13 @@
                 opacity: .85;
             }
 
+            #guerrilla {
+                margin:15rem 0 0; 
+                padding:2rem 0 2rem;
+            }
             
 
-            @media  (max-width: 1248px) {
-                #csMenu { 
-                    height: 74px;
-                }
-            }
+     
             
             @media  (max-width: 1080px) {
                 
@@ -269,6 +269,27 @@
                     margin-bottom: 1rem;
                 }
                 
+                .affinityWide {
+                    flex-direction: column;
+                }
+
+                #affinity {
+                    width: 100%;
+
+                }
+
+                #affinity h3{
+                    font-size: 1rem;
+                }
+
+                #empathyMap {
+                    width: 100%;;
+                }
+
+                #guerrilla {
+                    margin: 0;
+                    
+                }
                 
                 #prototype {
                     height: 150px;
@@ -459,7 +480,7 @@
                 </div>
                 
             </section>
-            <section id="sect01" alt="userFlow">
+            <section id="sect01" alt="brainstorm">
                 <div class="textContainer imgFull">
                     <h2>brainstorming & prioritization matrix</h2>
                     <img src="images/Travelize/caseStudy/brainstorm.webp">
@@ -479,22 +500,99 @@
                     <h1>UI Prototyping & Design</h1>
                 </div>
             </section>
+            <section id="sect01" alt="wireframes">
+                <div class="textContainer imgRight70 text40">
+                    <h2>wireframing</h2>
+                    
+                        <img src="images/Travelize/caseStudy/wireframes.jpg">
+                    
+                    <p>Wireframing the layout was important to my process, visualizing where elements were going to be and how the site would be mapped. In the lo-fi stage, I can concentrate on ideas without getting stuck on colors, fonts, and exact details.
 
+                    </p>
+                    
+                </div>
+            </section>
+            <section id="sect04" id="guerrilla" >
+                <div class="textContainer">
+                    <h2>Guerrilla User Tests</h2>
+                    <P>From the lo-fi wireframes, I created medium-fi prototypes that were guerrilla user tested. The feedback gave me great insights into where users were having blocks with the app. Some important revelations were:
 
-            <!--
-                <div id="prototype">
-                    <a href="https://www.figma.com/proto/77jGDlGOBoTBWlsInD0lmM/Travelize-Travel-App?node-id=126%3A3022&scaling=scale-down" target="_blank">Play with the prototype</a>
-                    <img src="icons/chevron-right.svg" /></div>
+                    </P>
+                    <ul>
+                        <li>
+                            Not enough contrast in font and background colors on some pages
+                        </li>
+                        <li>
+                            Having login and signup on a single page was confusing
+                        </li>
+                        <li>
+                            Vertical text is hard to read
+                        </li>
+                        <li>
+                            No nav back to dashboard - it’s not a website where the user expects to hit the logo to return home
+                        </li>
+                        <li>
+                            Icons without text can be confusing
+                        </li>
+                    </ul>
+                    <h2>Final UI Design</h2>
+                </div>
+            </section>
+            <section id="sect05" alt="heroSpread">
                 
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="900px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F77jGDlGOBoTBWlsInD0lmM%2FTravelize-Travel-App%3Fnode-id%3D126%253A3022%26viewport%3D560%252C108%252C0.16873709857463837%26scaling%3Dscale-down" allowfullscreen></iframe>
+                <div class="CSheroImage">
+                    <div class="">
+                        <img src="images/Travelize/caseStudy/hero.jpg">
+                    </div>
+                    
+                </div>
                 
-            </div>
-        -->
+
+                
+
+            </section>
+            <section id="sect01" class="playProto">
+                <div class="textContainer">
+                    <div class="protoPlay"><a href="https://www.figma.com/proto/77jGDlGOBoTBWlsInD0lmM/Travelize-Travel-App?node-id=126%3A3022&viewport=695%2C645%2C0.11404331773519516&scaling=scale-down" target="_blank">Play with the prototype <img src="icons/chevron-right.svg" /></a></div>
+                </div>
+                <div id="video">
+                    <iframe class="protoMobile" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F77jGDlGOBoTBWlsInD0lmM%2FTravelize-Travel-App%3Fnode-id%3D126%253A3022%26viewport%3D695%252C645%252C0.11404331773519516%26scaling%3Dscale-down" allowfullscreen></iframe>
+                </div>   
+            
+            </section>
         </section>
+        <section id="otherProjects">
+            <div >
+                <h2>Check out my other projects!</h2>
+                <div class="flexBox">
+                    <a href="deptInterior.html">
+                        <div class="portfolioLink">
+                            <img src="images/GovRedesign/DOI.jpg">
+                            <h3>U.S. Department of the Interior</h3>
+                        </div>
+                    </a>
+                    <a href="rmrc.html">
+                        <div class="portfolioLink">
+                            <img src="images/RMRC/rmrc.jpg">
+                            <h3>Rocky Mountain Railroad Club</h3>
+                        </div>
+                    </a>
+                    <a href="ink.html">
+                        <div class="portfolioLink">
+                            <img src="images/ink/ink.jpg">
+                            <h3>INK!</h3>
+                        </div>
+                    </a>
+                    
 
+                </div>
+            </div>
+        </section>
+            
         <footer id="social">
-                
+            
         </footer>
+       
 
         <script type="text/javascript">
                         //Get the button:
@@ -538,7 +636,15 @@
             </defs>
             </svg></a>
         </button>
+        <div class="preloader">
+        </div>
+        <script>
+            function fade(){
+            $(".preloader").fadeOut("slow");
+            };
 
+            setTimeout(fade, 500);
+        </script>
     </body>
     </html>
 

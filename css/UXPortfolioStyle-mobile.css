@@ -283,15 +283,7 @@
     
     /* Dept of Interior Tablet */
     
-    #csMenu {
-        width: 100%;
-        top:35em;
-    }
     
-    #csMenu ul {
-        transform: translate(-50%, 25%);
-        width: fit-content;
-    }
     
     #caseStudy {
         top:40em;
@@ -358,7 +350,7 @@
     #social {
         position: relative;
         top:0;
-        height: fit-content;
+        height: 84px;
     }
 
     .first {
