@@ -218,7 +218,7 @@
                 opacity: .85;
             }
 
-            #guerrilla {
+            .guerrilla {
                 margin:15rem 0 0; 
                 padding:2rem 0 2rem;
             }
@@ -246,6 +246,43 @@
                     top:1.2rem;
                     left:325px;
                 }
+            }
+
+            @media screen and (max-width: 850px) {
+                #userPersonas {
+                    width: 100%;
+                }
+                .person {
+                    width: 33vw;
+                }
+                .person img{
+                    width: 100%;
+                }
+
+                .greg:hover .personaOverlay {
+                    opacity: 1;
+                    margin:10px 0;
+                    width:90%;
+                    left:50%;
+                    transform: translate(-50%);
+                }
+                .lauren:hover .personaOverlay {
+                    opacity: 1;
+                    margin:10px 0;
+                    width:90%;
+                    left:50%;
+                    transform: translate(-50%);
+                }
+                
+                .nikki:hover .personaOverlay {
+                    opacity: 1;
+                    margin:10px 0;
+                    width:90%;
+                    left:50%;
+                    transform: translate(-50%);
+                }
+
+                
             }
 
 
@@ -286,9 +323,9 @@
                     width: 100%;;
                 }
 
-                #guerrilla {
+                .guerrilla {
                     margin: 0;
-                    
+
                 }
                 
                 #prototype {
@@ -512,7 +549,7 @@
                     
                 </div>
             </section>
-            <section id="sect04" id="guerrilla" >
+            <section id="sect04" class="guerrilla" >
                 <div class="textContainer">
                     <h2>Guerrilla User Tests</h2>
                     <P>From the lo-fi wireframes, I created medium-fi prototypes that were guerrilla user tested. The feedback gave me great insights into where users were having blocks with the app. Some important revelations were:
