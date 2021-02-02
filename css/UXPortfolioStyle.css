@@ -204,9 +204,9 @@ li a:hover {
 
 }
 
-    .thisIsScott {
-        display: none
-    }
+.thisIsScott {
+    display: none
+}
     
 .introDesktop {
         display: block;
@@ -226,7 +226,7 @@ li a:hover {
     filter:opacity(0);
 }
 
-#rollover:hover{
+#hello:hover #rollover{
     position: absolute;
     height: 485px;
     left: 0;
@@ -246,7 +246,7 @@ li a:hover {
     text-align: right;
     color: #ededed;
     position: absolute;
-    top: 135px;
+    top: 145px;
     right: 4vw;
     /*left: 50vw;
     transform: translate(-66%);*/
@@ -461,7 +461,7 @@ a.portfolioAnchor {
     display: block;
     position: absolute;
     width: 40%;
-    margin:auto;
+    margin:6rem auto;
     left: 35%;
     transform: rotate(-11deg);
     z-index: 0;
