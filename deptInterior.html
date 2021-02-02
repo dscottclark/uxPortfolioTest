@@ -224,6 +224,14 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
             }
         </script>
+        <div class="preloader">
+        </div>
+        <script>
+            function fade(){
+            $(".preloader").fadeOut("slow");
+            };
 
+            setTimeout(fade, 500);
+        </script>
     </body>
     </html>
