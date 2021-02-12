@@ -1,0 +1,220 @@
+@media screen and (min-width: 2000px) {
+    header.masthead .masthead-heading {
+        font-size: 5rem;
+    }
+    header.masthead .masthead-subheading {
+        font-size: 3.1rem;
+    }
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+ul {
+    list-style-type: unset;
+}
+
+li {
+    float: unset;
+}
+
+.navbar {
+    padding: 0;
+}
+
+#subMenu {
+    height: 52px;
+}
+
+li a:hover {
+    margin:0;
+}
+
+#subMenu li a:hover {
+    background-color: rgba(255,255,255,.01);
+}
+  
+.heroMobile {
+    width: 23vw;
+    padding-bottom: 2rem;
+    max-width: 460px;
+    
+}
+
+.sticky-top {
+    top:80px;
+}
+
+#subMenu .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+#subMenu .container-fluid {
+    width: max-content;
+}
+
+/*Case Study*/
+
+.bg-light {
+    background-color: #eee !important;
+}
+
+#final {
+    background-color: #252526!important;
+    color:#ededed;
+}
+
+a.portfolioAnchor {
+    position: relative;
+    top: -88px;
+    display: block;
+    visibility: hidden;
+}
+.sectionHeader {
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    background-color: #444448;
+    color: #ededed;
+    font-weight: 100;
+    padding: 9rem 0;
+}
+
+.page-section p{
+    color:#222;
+    font-weight: 400;
+}
+.page-section img{
+    width: 100%;
+}
+
+#userResearch img{
+    padding:1rem 0 1rem;
+}
+#definition h2{
+    padding:4rem 0 0rem;
+}
+
+#definition ul{
+    padding:0 0 4rem;
+}
+
+.CSheroImage img{
+    width: 100vw;
+}
+
+section .heroSpread {
+    padding:0;
+}
+
+.protoPlay {
+    padding:0 0 1rem;
+}
+
+.protoPlay a{
+    font-size: 24px;
+    font-weight: 400;
+    color: #222;
+    position: relative;
+    top: 0;
+    text-align: left;
+    width: 400px;
+}
+
+.protoPlay img{
+    position: absolute;
+    left: 320px;
+    transform: rotate(90deg);
+    filter: invert(1) opacity(0.9);
+    width:18px;
+}
+
+.protoMobile {
+    margin: 0 auto;
+    min-height: 900px;
+    width: 650px;
+}
+
+#final p{
+    color:#ededed;
+}
+
+@media screen and (max-width: 992px) {
+    h2 {
+        margin:0 !important
+    }
+    
+    h4 {
+        margin:0 !important
+    }
+    .navbar-nav {
+        align-items: flex-end;
+    }
+    .sticky-top {
+        top:79px;
+    }
+
+    #subMenu .container-fluid {
+        width: 100vw;
+        background-color: #343a40 ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #subMenu ul {
+        width:max-content;
+        margin:0 auto;
+        padding:0 0 1rem;
+        transform: translate(12px);
+    }
+
+    #subMenu li {
+        padding:10px 0;
+    }
+    
+    .heroMobile {
+        width: 36vw;
+    }
+    header.masthead .masthead-heading {
+        font-size: 9vw;
+    }
+    header.masthead .masthead-subheading {
+        font-size: 4vw;
+        line-height: 200%;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+    #mainNav .navbar-nav .nav-item .nav-link {
+        font-size: 1rem;
+        padding:15px 10px;
+    }
+    .fixed-top {
+        position: absolute;
+    }
+    .sticky-top {
+        top: 0;
+    }
+    
+    .heroMobile {
+        width: 50vw;
+    }
+    header.masthead .masthead-heading {
+        font-size: 13vw;
+    }
+    header.masthead .masthead-subheading {
+        font-size: 5vw;
+        line-height: 200%;
+    }
+
+    .page-section {
+        padding: 1rem 0 3rem;
+    }
+
+    #brainstorming .bg-light {
+        margin: .5rem 1rem !important;
+    }
+}
+
