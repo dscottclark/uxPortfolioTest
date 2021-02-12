@@ -1,302 +1,64 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width">
-        <title>D. Scott Clark UX/UI Designer</title>
-        <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHRN4C0HJM"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-FHRN4C0HJM');
-        </script>
-        <link rel="icon" type="image/png" href="images/favicon.png"/> 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>INK! Interior Design Mobile App Concept</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/UXPortfolioStyle.css">
-        <link rel="stylesheet" href="css/UXPortfolioStyle-child.css">
-        <link rel="stylesheet" href="css/UXPortfolioStyle-mobile.css">
-        <link rel="stylesheet" href="css/caseStudyStyle.css">
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/universal.js"></script>
-        
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/UXPortfolioStyle.css" rel="stylesheet" >
+        <link href="css/UXPortfolioStyle-child.css" rel="stylesheet" >
+        <link href="css/caseStudyStyle.css" rel="stylesheet" >
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles-cs.css" rel="stylesheet" />
         <style>
-            #intro {
-                background-image: url(images/RMRC/introDesktop.jpg);
+
+            header.masthead {
+                background-image: url("images/ink/introDesktop.jpg");
+            }
+            #brainstorming img{
+                padding:2rem 0 0 0;
             }
 
-            #brain {
-                display: block;
-                width: 416.5px;
-                margin-right: 2%;
-            }
-            
-            #brain img{
-                position: relative;
-                width: 100%;
-                left: 0;
-                top: -1rem;
+            #brainstorming .col-md-4{
+                padding:0;
             }
 
-            #priority {
-                position: absolute;
-                display: block;
-                width: 416.5px;
-                top:19rem;
-                left:50%;
-
-            }
-
-            #priority img{
-                width: 100%;
-                margin-top: -1rem;
-            }
-            .text50 {
-                width:40%;
-            }
-
-            #wireGif {
-                width:71%;
-                float: right;
-                margin-top: -5.6rem;
-                margin-left:1rem;
-            }
-
-            
-
-            .logoPath {
-                width:100%;
-                background-color: #fff;
-                padding:5rem 0 0 0;
-
-            }
-
-            .logoPath img{
-                display: block;
-                width:80%;
-                margin: 0 auto;
-
-            }
-
-            #sect05 {
-                width:100%;
-                max-width: 2000px;
-                background-image: linear-gradient(180deg, #3C503C 0%, rgba(60, 80, 60, 0.82) 100%);
-                height: fit-content;
-                margin:0 auto;
-            }
-
-
-            
-
-            .playProto {
-                    margin-top:-5.3rem;
-                }
-            
-            #RRprototype {
-                font-size: 24px;
-                font-weight:400;
-                color: white;
-                position: relative;
-                top:0;
-                text-align: left;
-                width: 400px;
-                
-            }
-            
-            #RRprototype a{
-                color: #222;
-                text-decoration: none;
-                font-weight: 600;
+            #brainstorming .bg-light{
+                background-color: #416759 !important;
+                color:#fff;
+                border-radius: 32px;
+                margin:0 1rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 1rem 2rem 1rem 0.5rem;
                 
             }
 
-            #RRprototype a:hover {
-                filter: opacity(0.7);    
-            }
-            #RRprototype img{
-                position: absolute;
-                left: 320px;
-                transform: rotate(90deg);
-                filter: invert(1) opacity(0.6);;
-
-            }
-            #video {
-                position: relative;
-                width: 850px;
-                top:-3.5rem;
-                padding-bottom: 0;
-                
-            }
-            #video iframe {
-                border-top:none !important;
-                height:650px;
-            }
-
-            #social {
-                position: relative;
-                top:auto;
-            }
-
-            #social li {
-                align-items: center;
-                float: left;
-                transform: translate(0);
-                padding-top:24px;
-            }
-
-            #sect06 {
-                width:100%;
-                background-color: #252526;
-                padding:5rem 0 5rem 0;
-                color:#ededed;
-                margin-bottom: -1.8rem;
-            }
-
-
-            #sect06 p {
-                color:#ededed;
-            }
-
-            @media (max-width: 840px) {
-                .storyboard {
-                    overflow-y: scroll;
-                }
-
-                .userFlow {
-                    overflow-y: scroll;
-                }
-
-                .userFlow img {
-                    width:200%;
-                }
-
-                #wireGif {
-                    width:100%;
-                    margin-top:0;
-                    margin-bottom:1rem;
-                }
-                #wireGif img {
-                    width:100%
-                }
-
-                #brain {
-                    Width:100%;
-                    margin:2rem 0 0 0;
-                }
-
-                #brain img{
-                    top:0;
-                }
-
-                #priority {
-                    position: relative;
-                    width:100%;
-                    margin:2rem 0 0 0;
-                    top:0;
-                    left:0;
-                }
-
-                #priority img{
-                    margin-top:0;
-                }
-
-                .logoPath {
-                    padding:0;
-                }
-                .logoPath img{
-                    width:100%;
-                    padding-top:3rem;
-                }
-
-                .playProto {
-                    margin-top:-6.4rem;
-                }
-
-               #RRprototype {
-                   font-size: 18px;
-                   top:3.5rem;
-                   left: 5%;
-               }
-               #RRprototype img {
-                   left:226px;
-                   transform: rotate(0);
-                   width:.5rem;
-                   margin-top:.2rem;
-               }
-
-               #sect06 {
-                   padding-top:3rem;
-               }
-                
-
-
-
+            #brainstorming h4 {
+                text-align: center !important;
+                color: #ededed;
             }
 
             @media (max-width: 640px) {
                 #intro {
-                background-image: url(images/RMRC/introMobile.jpg);
+                background-image: url("images/ink/introMobile.jpg");
+                }
             }
-
-                .DOIdesktop {
-                    width:76%;
-                    left:7%;
-                    top:9rem;
-                }
-
-                .DOImobile {
-                    left:74%;
-                    top:15.7rem;
-                }
-
-                #sect03 {
-                    padding-bottom: 3rem;
-                }
-
-                #sect03 .imgFull {
-                    padding:2rem 1rem 0;
-                }
-
-                .playProto {
-                    margin-top: -4.4rem;
-                }
-
-                #RRprototype {
-                    font-size:16px;
-                    left:auto;
-                    right:5%;
-                    width:100%;
-                    text-align: right;
-                    top:2.5rem;
-                }
-
-                #RRprototype img{
-                    left:0;
-                    transform:translate(0,4px);
-                    margin-top:0;
-                    position: relative;
-                }
-
-                #transform {
-                    translate(0,3px);
-                    width:.5rem;
-                } 
-
-
-            }
-
-
         </style>
     </head>
-    <body>
+    <body id="page-top">
+        <!-- Navigation-->
         <section id="headerBG">
             
         </section>
@@ -308,311 +70,565 @@
                 
             </div>
         </header>
-        <section id="introContent">
-            <div id="intro">
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <img class="heroMobile" src="images/ink/cs/mock.webp">
+                <div class="masthead-heading text-uppercase">INK!</div>
+                <div class="masthead-subheading">mobile interior design app concept</div>
+        </header>
+        <!--Submenu-->
+        <nav id="subMenu" class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Case Study Menu</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#empathy">empathy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#definition">definition</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#ideation">ideation</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#prototyping">UI prototyping & design</a>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </div>
+          </nav>
+        <!-- Services-->
+        <section class="page-section" id="project">
+            <div class="container">
                 
-                <div class="heroText">
-                    <img class="heroDesktop" src="images/RMRC/pages/mock.webp">
-                    <h1>Rocky Mountain Railroad Club</h1>
-                    <h3>mobile interior design app concept</h3>
-                </div>
-                
-                
-            </div>
-            
-        </section>
-        <nav id="csMenu">
-            <div class="Btn">
-                case study menu
-            </div>
-            <div class="dropdown">
-                <ul>
-                    <li><a href="#empathy">empathy</a></li>
-                    <li><a href="#definition">definition</a></li>
-                    <li><a href="#ideation">ideation</a></li>
-                    <li><a href="#prototyping">prototyping</a></li>
-                    <li><a href="#design">user interface design</a></li>
-                </ul>
-            </div>    
-        </nav>
-        <section id="caseStudyContent">
-            <section id="sect01" alt="overview">
-                <div class="textContainer">
-                    <h2>About the Project</h2>
-                    <h4>Problem</h4>
-                    <p>
-                        The Rocky Mountain Railroad club website is a relic of mid-90's design
-                        and had major IA issues. My team wanted to create a modern re-design concept
-                        that would give club members a better way to interact with the website and 
-                        would attract new members into the club. 
-                    </p>
-
-                    <h4>My Role</h4>
-
-                    <p>The team included 3 UX designers, with one that leaned more towards the research. 
-                        The other designer and I worked collaboratively to come up with many of the 
-                        UI patterns used across the site. We all were involved in the research and I took 
-                        the lead on logo design, wireframing, prototyping, and finishing the design details. 
-                    </p>
-
-                    <h4>Tools:</h4>
-
-                    <ul>
-                        <li>Figma</li>
-                        <li>Miro</li>
-                        <li>Affinity Designer</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Trello</li>
-                    </ul>
-                </div>
-            </section>
-
-            <a class="portfolioAnchor"  name="empathy" ></a>
-            <section id="sect02" class="sectionHeader">
-                <div class="textContainer">
-                    <h1>Empathy</h1>
-                </div>
-            </section>
-            <section id="sect03" alt="DesignProcess">
-                <div class="textContainer">
-                        <h2>The Design Process</h2>
-                        <p>Through the Design Process, we were able empathize with the users and the stakeholders, define the user flows and key requirements, brainstorm new ideas, and prototype a new design. </p>
-
-                        <img class="imgFull" src="images/RMRC/caseStudy/DesignProcess.svg">                    
-                </div>
-            </section>
-            <section id="sect04" alt="current site">
-                <div class="textContainer">
-                    <h2> The Current Site</h2>
-                    <img class="imgRight" src="images/RMRC/caseStudy/current.jpg">
-                    <p>Globally, the website is outdated and unintuitive to use. Users have difficulty finding what they are looking for without knowing how the website is organized.</p>
-
-                    <p>Many of the Heuristic Principles are not respected on the website. It is not minimalist and user has to scan the entire site to find what they're looking for. </p>
-
-                    <p><strong>According to the information we gathered from user Interviews & tests,
-                        we improved:</strong></p>
-
-                        <ul>
-                            <li>The home page now has quick access to the most visited pages that will reduce searching. User will have more of what they need in front of themdirectly on the home page.</li>
-                            <li>The menu is intuitive and easy to use.</li>
-                            <li>The site includes more visuals - Images, cards and less pure text</li>
-                            <li>Using Card-sorting, we achieved a much better information architecture (IA) which makes navigating the site much easier.</li>
-                        </ul>
-
-                        <p>Since this project needed a complete redesign, abandoning basically everything from the current site, it had both a ton of room for a creative solution and the challenge of coming up with something from nothing. </p>
-                </div>
-            </section>
-            <section id="sect01" alt="Personas">
-                <div class="textContainer">
-                    <h2> Personas</h2>
-                    <h4>Proto Persona</h4>
-                    <div class="svg100">
-                        <img src="images/RMRC/caseStudy/protoPersona.svg">
-                    </div>
+                <div class="row text-left">
+                    <div class="col-md-2">
                         
-                    <p>The internet can be hard to use for Steve, as he did not grow up using this technology. In order to stay up to date with his favorite hobby, he needs to be able to more easily interact with the RMRF website.</p>
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">About the project</h2>
+                    </div>
+                    <div class="col-md-2">
 
-                    <p><strong>How might we redesign the Rocky Mountain railroad foundation website so that members like Steve can better find the information they are seeking.</strong> </p>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-8">
+                        
+                        <h4 class="my-3">Problem</h4>
+                        <p >Interior design can be an overwhelming task for many people. It’s hard to know how to get started, what pieces will fit in each room and how pieces will fit together in a space without having them all laid out.   
+                        </p>
+                    </div><div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-8">
+                        
+                        <h4 class="my-3">Solution</h4>
+                        <p >INK! allows you to design, decorate and set up a new spacewith AI generated suggestions. This app helps take out the guesswork of interior design. 
+  
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <h4 class="my-3">My Role</h4>
+                        <p >I collaborated with two other UX designers on all aspects of this project. We came up with the app concept, did the user research, and designed the UI. I took the lead on wireframing, UI design, and prototyping. </p>
+                    </div>
+                   
+                    <div class="col-md-4">
+                        
+                        <h4 class="my-3">Tools</h4>
+                        <ul >
+                            <li>Figma</li>
+                            <li>Miro</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Affinity Designer</li>
+                            <li>Trello</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4"></div>
                     
-                    <h4>User Persona</h4>
-                    <div class="svg100">
-                        <img src="images/RMRC/caseStudy/userPersona.svg">
-                    </div>
                 </div>
-            </section>
-
-            <a class="portfolioAnchor"  name="definition" ></a>
-            <section id="sect02" class="sectionHeader">
-                <div class="textContainer">
-                    <h1>Definition</h1>
-                </div>
-            </section>
-            <section id="sect01" alt="Problem">
-                <div class="textContainer">
-                    <h2>Problem Statement</h2>
-                    <p>During our research, user interviews, and through a survey, we discovered that having a well designed and easily navigable website was important to John when looking for a nonprofit. He wants to be able to get involved and stay up to date with his favorite nonprofit club. He needs to be able to easily interact with the website. He wants to join the Rocky Mountain Railroad Club because he enjoys Colorado and Railroad history and wants to get involved with an organization working to preserve both. He is overwhelmed by the current website being cluttered and not intuitive to have access to the information he needs.</p>
-
-                    <p>We believe that users like John will be more inclined to donate or become a member if the website was easier to navigate and included more information fitting his needs. We might be able to help by redesigning the website in a cleaner and easier way for people like John. 
-                    </p>
-                    
-                </div>
-            </section>
-            <section id="sect04" class="storyboard">
-                <div class="textContainer">
-                    <h2> Storyboard</h2>
-                    <img src="images/RMRC/caseStudy/storyboard.jpg">
-                </div>
-            </section>
-            <section id="sect01" class="userFlow">
-                <div class="textContainer">
-                    <h2>User Flow</h2>
-   
-                </div>
-                <div class="svg100">
-                    <img src="images/RMRC/caseStudy/userFlow.svg">
-                </div>
-
-            </section>
-            
-            <a class="portfolioAnchor"  name="ideation" ></a>
-            <section id="sect02" class="sectionHeader">
-                <div class="textContainer">
-                    <h1>Ideation</h1>
-                </div>
-            </section>
-            <section id="sect01" alt="userFlow">
-                <div class="textContainer">
-                    <h2>Priorities</h2>
-                    <ul class="text50">
-                        <li>Connecting with the other club members and board 
-                        </li>
-                        <li>
-                            Knowing the impact the organization is making
-                        </li>
-                        <li>Event suggestions </li>
-                        <li>No ads</li>
-                        <li>Responsive</li>
-                        <li>Short joining form</li>
-                        <li>Lots of visuals</li>
-                        <li>Important information on the homepage</li>
-                        <li>Website is update to date</li>
-                    </ul>
-                    <div id="brain">
-                        <h4>brainstorming</h4>
-                        <img src="images/RMRC/caseStudy/brainstorming.jpg">
-                    </div>
-                    <div id="priority">
-                        <h4>priority matrix</h4>
-                        <img src="images/RMRC/caseStudy/priorityMatrix.jpg">
-                    </div>    
-                </div>
-                
-
-            </section>
-            <section id="sect04" alt="sitemap">
-                <div class="textContainer">
-                    <h2> Sitemap</h2>
-                    <p>Through card-sorting, we determined the best architecture for the navigation and pages, then created a sitemap that was easy to understand. </p>
-                </div>
-                <div class="svg90">
-                    <img src="images/RMRC/caseStudy/Sitemap.svg">
-                </div>
-                
-            </section>
-
-            <a class="portfolioAnchor"  name="prototyping" ></a>
-            <section id="sect02" class="sectionHeader">
-                <div class="textContainer">
-                    <h1>Prototyping</h1>
-                </div>
-            </section>
-            <section id="sect01" alt="wireframing">
-                <div class="textContainer">
-                    <h2>wireframing</h2>
-                    <div id="wireGif">
-                        <img src="images/RMRC/caseStudy/WireFrames.gif">
-                    </div>
-                    <p class="text50">I tend to think digitally and wireframing in Figma is easier than drawing up designs on paper. </p>
-                    <p class="text50">We lo-fi wireframed the majority of the site and made a clickable prototype, which made moving into hi-fi very easy. </p>
-                </div>
-                
-
-            </section>
-            <section id="sect04" alt="Logo">
-                <div class="textContainer">
-                    <h2> Logo Redesign</h2>
-                    <p>The original logo was quite aged, so I set out to design one that met the aesthetic of the new brand while simply and effectively broadcasting the club’s purpose. The first idea didn't incorporate enough of colorado in it, and the shape of the logo made it difficult to fit in header bars. The final design worked much better in the website design. </p>
-                </div>
-                
-            </section>
-            <section id="sect01" class="logoPath">
-                <img src="images/RMRC/caseStudy/logoPath.jpg">
-                
-
-            </section>
-
-            <a class="portfolioAnchor"  name="design" ></a>
-            <section id="sect02" class="sectionHeader">
-                <div class="textContainer">
-                    <h1>User Interface Design</h1>
-                </div>
-            </section>
-            <section id="sect05" alt="heroSpread">
-                
-                <div class="CSheroImage">
-                    <div class="hideDesktop">
-                        <img src="images/RMRC/caseStudy/hero/heroBG.jpg">
-                    </div>
-                    <div class="hideMobile">
-                        <img src="images/RMRC/caseStudy/hero/heroBGmobile.jpg">
-                    </div>
-                </div>
-                
-
-                
-
-            </section>
-            <section id="sect01" class="playProto">
-                <div class="textContainer">
-                    <div id="RRprototype"><a href="https://www.figma.com/proto/IKHDhXGwQjn78ed2ZqkRXS/RMRC-Redesign?scaling=scale-down&node-id=816%3A2" target="_blank">Play with the prototype <img src="icons/chevron-right.svg" /></a></div>
-                </div>
-                
-
-            </section>
-            <div id="video">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIKHDhXGwQjn78ed2ZqkRXS%2FRMRC-Redesign%3Fnode-id%3D469%253A11846%26viewport%3D71%252C1095%252C0.21608054637908936%26scaling%3Dscale-down-width" allowfullscreen></iframe>
             </div>
-            <section id="sect02" class="sectionHeader">
-                <div class="textContainer">
-                    <h1>Final Thoughts</h1>
-                </div>
-            </section>
-            <section id="sect06" alt="final thoughts">
-                <div class="textContainer">
-                    <p>This was a fun project to work on, but it had its challenges. We had some problems figuring out how to find potential users of the site for user research and tests, so much of our research was done more on a broader scale about non-profits in general. Had we had more time, we would have liked to work with the client and the club members more. </p>
-                    <p>We didn't hear back from stakeholders until pretty far into the process, so their input drove the direction of the redesign less than it could have.  We did interview the club president, who gave us some great insight into the club and how they use their website. We would have liked to see how the members would like to use their site as well. </p>
-                    <p>Had we had more time for the project we would have liked to implement everything we could from our interviewees wants.  A lot of our interviewees stressed the need for transparency when giving money to a non-profit. Had we had more time, we would have loved to figure out how to make their financials more public in an easy to digest manner. 
-                    </p>
-                    <p>Overall, we're really pleased with how our redesign came out and are excited to show it to the stakeholders. It would be interesting if they implementented any or all of our designs. Their president said they are aware they need to update their website, so it could be a great opportunity for them.</p>
-                </div>
-            </section>   
-            <section id="otherProjects">
-                <div >
-                    <h2>Check out my other projects!</h2>
-                    <div class="flexBox">
-                        <a href="deptInterior.html">
-                            <div class="portfolioLink">
-                                <img src="images/GovRedesign/DOI.jpg">
-                                <h3>U.S. Department of the Interior</h3>
-                            </div>
-                        </a>
-                        <a href="ink.html">
-                            <div class="portfolioLink">
-                                <img src="images/ink/ink.jpg">
-                                <h3>INK!</h3>
-                            </div>
-                        </a>
-                        <a href="travelize.html">
-                            <div class="portfolioLink">
-                                <img src="images/Travelize/travelize.jpg">
-                                <h3>Travelize</h3>
-                            </div>
-                        </a>
+
+        </section>
+
+        <a class="portfolioAnchor"  name="empathy" ></a>
+
+        <section class="sectionHeader">
+            <div class="text-center">
+                <h1>Empathy</h1>
+            </div>
+        </section>
+
+        <section class="page-section" id="designProcess">
+            <div class="container">
+                <div class="row text-left">
+                    
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">The Design Process</h2>
+                        <p >Through the Design Process, we were able empathize with potential users who have struggled to design their spaces and struggled with AR furniture apps, define and key requirements user journeys, brainstorm new ideas, and prototype a new design.
+
+   
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-8">
+                        <img src="images/ink/cs/designProcess.webp">
+                    </div>
+
+            </div>
+        </section>
+
+        <section class="page-section bg-light" id="userResearch">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                        
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">User Research</h2>
+                        <img src="images/ink/cs/protoPersona.webp">
+                    </div>
+                    <div class="col-md-2">
 
                     </div>
                 </div>
-            </section>
+            </div>        
+        </section>    
+
+        <section class="page-section" id="userInterviews">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <img src="images/ink/cs/userInterviews.webp">
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+            </div>        
+        </section>
+
+        <section class="page-section bg-light" id="affinity">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                        
+                    </div>
+                    <div class="col-md-8">
+                        <img src="images/ink/cs/affinityDiagram.webp">
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+            </div>        
+        </section>    
+
+        <section class="page-section" id="userInterviews">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <img src="images/ink/cs/userPersona.webp">
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                </div>
+            </div>        
+        </section>
                 
-            <footer id="social">
-                
-            </footer>
-            </section>
+        <a class="portfolioAnchor"  name="definition" ></a>
+
+        <section class="sectionHeader">
+            <div class="text-center">
+                <h1>Definition</h1>
+            </div>
+        </section>
+
         
 
+        <section class="page-section" id="priorities">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                        
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">Priorities</h2>
+                        <ul>
+                            <li>
+                                Make interior design easy and accessible to everyone
+                            </li>
+                            <li>Use 3d scanning to create a digital space for user to plan their space in</li>
+                            <li>Make the buying process seamless</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <section class="page-section bg-light" id="competitorAnalysis">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                        
+                    </div>
+                    <div class="col-md-8">
+                        <img src="images/ink/cs/compAnalysis.webp">
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="storyboard">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">Storyboard</h2>
+                        <img src="images/ink/cs/storyboard.jpg">
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section bg-light" id="userJourneyMap">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">User Journey Map</h2>
+                        <img src="images/ink/cs/userJourney.jpg">
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <a class="portfolioAnchor"  name="ideation" ></a>
+
+        <section class="sectionHeader">
+            <div class="text-center">
+                <h1>Ideation</h1>
+            </div>
+        </section>
+
+        <section class="page-section" id="brainstorming">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">Brainstorming & Prioritization</h2>
+                        <p>
+                            Through the brainstorming exercise, <strong>I Like, I Wish, What If?</strong>, we found features that we wanted to priortize or put on wish lists. 
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="bg-light">
+                            <h4>I Like</h4>
+                            <ul>
+                                <li>
+                                    Predesigned rooms (Ikea, Crate & Barrel)
+                                </li>
+                                <li>
+                                    When VR is actually helpful (rarely)
+                                </li>
+                                <li>
+                                    Decluttering spaces
+                                </li>
+                                <li>
+                                    Getting helpful suggestions
+                                </li>
+                                <li>
+                                    Good customer service
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>   
+                    <div class="col-md-4">
+                        <div class="bg-light">
+                            <h4>I Wish</h4>
+                            <ul>
+                                <li>
+                                    I can see my items in my space before I buy
+                                </li>
+                                <li>
+                                    The app is extremely easy to use
+                                </li>
+                                <li>
+                                    AR & 3D are intuitive
+                                </li>
+                                <li>
+                                    I can get multiple suggestions for how to use my space
+                                </li>
+                                <li>
+                                    All items sold on the app are AR/3D friendly
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>     
+                    <div class="col-md-4">
+                        <div class="bg-light">
+                            <h4>What If?</h4>
+                            <ul>
+                                <li>
+                                    I had custom design recommendations
+                                </li>
+                                <li>
+                                    People came to take away my clutter
+                                </li>
+                                <li>
+                                    Social aspect - I could share my designs
+                                </li>
+                                <li>
+                                    Envision a cleared space - taking a cluttered space and seeing renewed
+                                </li>
+                                <li>
+                                    Personal digital interior designer
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-2">
+                    </div>
+
+                    <div class="col-md-8">
+                        <img src="images/ink/cs/brainstorm.webp">
+
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section bg-light" id="userFlow">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">User Flow</h2>
+                        <img src="images/ink/cs/userFlow.jpg">
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <a class="portfolioAnchor"  name="prototyping" ></a>
+
+        <section class="sectionHeader">
+            <div class="text-center">
+                <h1>UI Prototyping & Design</h1>
+            </div>
+        </section>
+
+        <section class="page-section" id="branding">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">Branding</h2>
+                        <p>The brand INK! started as a team name, <strong>"It's not a Koala!"</strong> based on an inside joke, but then we liked the concept of INKing interior design spaces, "sketching" your designs in a digital space before buying anything. The logo design came from that joke and thinking about Magritte's "Ceci n'est pas une pipe" painting.</p>
+                        
+                        <p>I typically like sans serif fonts, but wanted to branch out for this logo and found that I really liked BelucianUltra and how it played with the koala. And for our Value Proposition Statement, I felt that <strong>"Visualize Your World"</strong> epitomized the goal of INK! </p>
+                        <img src="images/ink/cs/InkLogoScratch.svg">
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section bg-light" id="wireframing">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="section-heading">Wireframing</h2>
+                        <p>
+                            Wireframing the layout was important to the process, visualizing where elements were going to be and how the site would be mapped. Sticking to lo-fi for laying out the page flows allows us to concentrate on ideas without getting stuck on colors, fonts, and exact details. This process allowed us to iterate our flows before making hi-fi designs. 
+
+
+                        </p>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="images/ink/cs/Wireframes.jpg">
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" id="userTests">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="section-heading">Guerrilla User Tests</h2>
+                        <p>
+                            We user tested our lo-fi designs to get feedback on the how the user flowed through the app. We were able to iterate our desings based on this user testing with improvements to onboarding, the log-in process, searcing for furniture, and the big improvements to the checkout process. 
+
+
+                        </p>
+                    </div>
+                    
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="heroSpread" alt="heroSpread">
+                
+            <div class="CSheroImage">
+                <div class="hideDesktop">
+                    <img src="images/ink/cs/hero.jpg">
+                </div>
+                <!-- <div class="hideMobile">
+                    <img src="images/RMRC/caseStudy/hero/heroBGmobile.jpg">
+                </div> -->
+            </div>
             
-            <a href="#"><svg width="100%" height="100%" viewBox="0 0 125 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            
+
+        </div>
+        <section class="page-section playProto">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-6">
+
+                        <div class="protoPlay"><a href="https://www.figma.com/proto/eT8MMBqWHZW6K3saroSKlv/INK-Interior-Design-App?node-id=228%3A8548&viewport=302%2C173%2C0.09733990579843521&scaling=scale-down" target="_blank">Play with the prototype <img src="icons/chevron-right.svg" /></a></div>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+                <div class="row text-left">
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-6">
+                        <div id="video">
+                            <iframe class="protoMobile" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FeT8MMBqWHZW6K3saroSKlv%2FINK-Interior-Design-App%3Fnode-id%3D228%253A8548%26viewport%3D302%252C173%252C0.09733990579843521%26scaling%3Dscale-down" allowfullscreen></iframe>
+                        </div>   
+                        
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                </div>
+            </div>
+        </section>    
+        
+        <section class="sectionHeader">
+            <div class="text-center">
+                <h1>Final Thoughts</h1>
+            </div>
+        </section>
+        <section class="page-section bg-dark" id="final">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <p>INK! was great to work on through the conception process. In the beginning, we had a lot of great ideas - from decluttering to custom design recommendations but decided to go with a more simplified version. In the future, we would like to incorporate some of these features in order to make the experience more personalized such as an aesthetic finder survey, updating our recommendation algorithm and eventually expanding into the business world. 
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+        </section>                
+        <section id="otherProjects">
+            <div >
+                <h2>Check out my other projects!</h2>
+                <div class="flexBox">
+                    <a href="deptInterior.html">
+                        <div class="portfolioLink">
+                            <img src="images/GovRedesign/DOI.jpg">
+                            <h3>U.S. Department of the Interior</h3>
+                        </div>
+                    </a>
+                    <a href="ink.html">
+                        <div class="portfolioLink">
+                            <img src="images/ink/ink.jpg">
+                            <h3>INK!</h3>
+                        </div>
+                    </a>
+                    <a href="travelize.html">
+                        <div class="portfolioLink">
+                            <img src="images/Travelize/travelize.jpg">
+                            <h3>Travelize</h3>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+            
+        <footer id="social">
+            
+        </footer>
+        </section>
+    
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        
+        <a href="#"><svg width="100%" height="100%" viewBox="0 0 125 102" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d)">
 <rect x="29" y="16" width="66" height="66" rx="10" fill="#3D3D3D"/>
 <path d="M63.1412 38.8588C62.5109 38.2285 61.4891 38.2285 60.8588 38.8588L50.5881 49.1296C49.9578 49.7598 49.9578 50.7817 50.5881 51.4119C51.2183 52.0422 52.2402 52.0422 52.8704 51.4119L62 42.2824L71.1296 51.4119C71.7598 52.0422 72.7817 52.0422 73.4119 51.4119C74.0422 50.7817 74.0422 49.7598 73.4119 49.1296L63.1412 38.8588ZM63.6139 61V40H60.3861V61H63.6139Z" fill="white"/>
@@ -630,39 +646,50 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
 </filter>
 </defs>
-            </svg></a>
+        </svg></a>
 
-        </button>
-        <script type="text/javascript">
-        
-                        //Get the button:
-            mybutton = document.getElementById("myBtn");
+    </button>
+    <script type="text/javascript">
+    
+                    //Get the button:
+        mybutton = document.getElementById("myBtn");
 
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() {scrollFunction()};
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
 
-            function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-            }
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
 
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-        </script>
-        <div class="preloader">
-        </div>
-        <script>
-            function fade(){
-            $(".preloader").fadeOut("slow");
-            };
+    </script>
+    <div class="preloader">
+    </div>
+    <script>
+        function fade(){
+        $(".preloader").fadeOut("slow");
+        };
 
-            setTimeout(fade, 500);
-        </script>
+        setTimeout(fade, 500);
+    </script>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
-    </html>
+</html>
