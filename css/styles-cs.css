@@ -18,6 +18,20 @@ li {
     float: unset;
 }
 
+#header {
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header li {
+    float: left;
+    margin:0;
+}
+
 .navbar {
     padding: 0;
 }
