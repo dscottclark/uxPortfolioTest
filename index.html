@@ -22,7 +22,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/UXPortfolioStyle.css">
         <link rel="stylesheet" href="css/UXPortfolioStyle-mobile.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
         <script src="js/universal.js"></script>
         <script>
             
@@ -36,10 +37,6 @@
             #about h1{
                 font-family: raleway;
                 font-size: 2v;
-            }
-
-            #bgImage img::before {
-                background-image: url(images/profileheadSM.png);
             }
 
             #ink {
@@ -61,7 +58,8 @@
         
     </head>
     <body>
-        <header id="header">
+        <header id="header" class="nav-fixed">
+
             <div id="logo">
                 <a href="index.html">
                     <img src="icons/dscottdesign.svg">
@@ -72,7 +70,7 @@
         <section id="intro">
             <div id="bgImage">
 
-                <img src="images/profilehead.webp" />
+                <img src="images/profilehead.jpg" />
             </div>
             <div id="hello">
                     <div id="helloBG">   
@@ -107,7 +105,7 @@
                 <div class="heroImage">
                     <div class="desktop">
                         <a href="deptInterior.html">
-                        <img src="images/GovRedesign/hero/DesktopShort.jpg" />
+                        <img src="images/GovRedesign/hero/DesktopShort.webp" />
                             </a>
                     </div>
                     <div class="mobile">
@@ -122,7 +120,7 @@
                 <div class="heroImage">
                     <div class="desktop02">
                         <a href="rmrc.html">
-                        <img src="images/RMRC/pages/homepageShort.jpg" >
+                        <img src="images/RMRC/pages/homepageShort.webp" >
                         </a>
                     </div>
                     <div class="mobile02">
@@ -213,12 +211,21 @@
         <div class="preloader">
             <img src="icons/dscottdesign.svg">
         </div>
+        <script src="js/scripts.js"></script>
         <script>
+            console.log('loadingNow');
+            $(function () {
+                $(document).scroll(function () {
+                var $nav = $(".nav-fixed");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
             function fade(){
             $(".preloader").fadeOut("slow");
             };
 
             setTimeout(fade, 1500);
+            
         </script>
     </body>
     </html>

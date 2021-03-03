@@ -1,4 +1,6 @@
 
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+
 html {
     max-width: 100%;
     overflow: hidden;
@@ -72,11 +74,15 @@ a {
     position:fixed;
     top:0;
     width: 100%;
-    max-width: 2000px;
-    background-color: #19191B;
+    /* background-color: #19191B; */
     height: 84px;
     z-index: 1000;
 }
+
+.nav-fixed.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
 
 @media (min-width: 1080px) {
     #menu {
@@ -140,25 +146,27 @@ li a:hover {
     display: none;
 }
 
+
 #intro {
     position: relative;
-    top:84px;
-    height: 569px;
+    top:0;
+    height: 558px;
+    background-color: #252526;
+    right:0;
 }
 
 #bgImage {
     position: fixed;
-    top:84px;
-    height: 485px;
-    width: 100%;
-    max-width: 2000px;
+    top:0;
+    height: 558px;
     background-color: #252526;
+    right:0;
 }
 
 #bgImage img{
     position: relative;
-    height: 485px;
-    left:60%;
+    height: 558px;
+    right: 0;
 }
 
 #hello {
@@ -170,7 +178,8 @@ li a:hover {
     font-family: montserrat;
     font-size: 25px;
     font-weight: 200;        
-    color: #ededed;    
+    color: #ededed;  
+    top:84px;  
 }
 #helloBG {
     position: absolute;
@@ -231,7 +240,6 @@ li a:hover {
     height: 485px;
     left: 0;
     top:0;
-    width: 60vw;
     background-color: #252526;
     filter:opacity(100%);
     transition-delay: 50ms;
@@ -250,7 +258,7 @@ li a:hover {
     right: 4vw;
     /*left: 50vw;
     transform: translate(-66%);*/
-    width: 50vw;
+    width: 50%;
 }
 #hello img {
     position: absolute;
@@ -298,7 +306,7 @@ li a:hover {
 }
 
 
-@media (min-width: 2000px) {
+/* @media (min-width: 2000px) {
     #logo {
         left:1030px;
     }
@@ -321,7 +329,7 @@ li a:hover {
         
     }
 
-}
+} */
 
 .anchor {
     display: block;
@@ -393,7 +401,7 @@ a.portfolioAnchor {
     top: 0;
     left: 0;
     text-align: left;
-    padding: 50px;
+    padding: 50px 50px 0;
     text-decoration: none;
     width: 20vw;
     height: 100%;
@@ -590,6 +598,12 @@ a.anchor {
     background-color: rgba(0,0,0,0);
     filter:opacity(.5)
 }
+
+@media screen and (min-width: 2000px) {
+    body {
+        max-width: 100vw;
+    }
+
 
 
 
