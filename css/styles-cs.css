@@ -102,6 +102,23 @@ a.portfolioAnchor {
     width: 100%;
 }
 
+.dark25 {
+    background-color: #252525;
+    color:#ededed;
+}
+
+.dark35 {
+    background-color: #353535;
+    
+}
+.dark.page-section h2.section-heading {
+    color: #ededed;
+}
+.dark.page-section p {
+    color: #ededed;
+}
+
+
 #userResearch img{
     padding:1rem 0 1rem;
 }

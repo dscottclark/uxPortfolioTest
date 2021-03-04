@@ -249,6 +249,16 @@ iframe {
     
 }
 
+#mobileVideo {
+    display: flex;
+    position: relative;
+    top:0;
+    margin:1rem auto;
+    width:100%;
+    height: 100%;
+    min-height: 700px;
+}
+
 .protoMobile {
     margin:0 auto;
     min-height: 900px;
@@ -281,7 +291,9 @@ iframe {
 .portfolioLink{
     margin:0 1rem;
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     
 }
 
@@ -300,9 +312,7 @@ iframe {
     position: absolute;
     text-align: center;
     width: 13.5vw;
-    top: 42%;
     font-size: 2vw;
-    transform: translate(0, -50%);
 
 }
 
