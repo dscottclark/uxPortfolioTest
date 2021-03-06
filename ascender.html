@@ -32,6 +32,7 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/styles-cs.css" rel="stylesheet" />
         <style>
+            
 
             header.masthead {
                 background-image: url("images/ascender/bgHero.jpg");
@@ -59,6 +60,27 @@
 
             #siteMap img{
                 padding: 0 0 2rem;
+            }
+
+            #siteMap img.hidden {
+                border-radius: 30px;
+                transition: 0.3s;
+                width:200%;
+
+            }
+
+            img.hoverTrigger:hover {
+                opacity:.5;
+            }
+
+            img.hoverTrigger:hover ~ img.hidden {
+                display:flex;
+                position: absolute;
+                justify-content:center;
+                z-index: 5;
+                transform: translate(-25%);
+
+
             }
 
             #brainstorming h4 {
@@ -98,6 +120,7 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
+                <img class="hidden" src="images/ascender/bgHero.jpg">
                 <img class="heroMobile" src="images/ascender/mock.png">
                 <div class="masthead-heading text-uppercase">Ascender</div>
                 <div class="masthead-subheading">mobile rock climbing guide concept</div>
@@ -152,7 +175,7 @@
                     <div class="col-md-8">
                         
                         <h4 class="my-3">Problem</h4>
-                        <p>In the digital age, rock climbing guidebooks have struggled to catch up, with many companies attempting digital versions but none of them being completely useful or plausible to replace printed editions. Guidebooks are important for climbing to direct climbers to the correct trailheads and crags, and helps climbers find specific routes. Current digital guides, like Mountain Project, have many problems that keep people wanting to fully depend on them. 
+                        <p>In the digital age, rock climbing guidebooks have struggled to catch up, with many companies attempting digital versions but none of them are completely useful or plausible to replace printed editions. Guidebooks are important for climbers to navigate to the correct trailheads and crags, and helps them find specific routes. Current digital guides, like Mountain Project, have many problems that keep people from being able to fully depend on them.
 
                         </p>
                     </div><div class="col-md-2">
@@ -164,7 +187,7 @@
                     <div class="col-md-8">
                         
                         <h4 class="my-3">Solution</h4>
-                        <p><strong>Ascender</strong> is a digital climbing guide that <i>prioritizes delivering all the information</i> a user/climber needs to find a new climbing area, navigate to the wall, and be confident they are getting on the correct route. Ascender will provide a <i>new level of quality content</i> in a crowd sourced climbing app by assuring that all of the proper information is provided for every newly added route, topo, or climbing area. Getting lost and frustrated while searching for a new-to-you climbing area will be a thing of the past! 
+                        <p><strong>Ascender</strong> is a digital climbing guide that <i>prioritizes delivering all the information</i> a climber needs to find a new climbing area, navigate to the wall, and be confident they are getting on the correct route. Ascender will provide a <i>new level of quality content</i> in a crowd sourced climbing app by assuring that all of the proper information is provided for every newly added route, topo, or climbing area. Getting lost and frustrated while searching for a new-to-you climbing area will be a thing of the past! 
   
                         </p>
                     </div>
@@ -539,7 +562,7 @@
         </section>
         <section class="page-section dark dark35" id="siteMap">
             <div class="container">
-                <div class="row text-left">
+                <div class="row text-center">
                     <div class="col-md-2">
                     </div>
                     <div class="col-md-8">
@@ -551,17 +574,22 @@
                     <div class="col-md-3">
                     </div>
                     <div class="col-md-6">
-                        <img src="images/ascender/cs/sitemap1.svg">
+                        <img class="hoverTrigger" src="images/ascender/cs/sitemap1.svg">
+                        <img class="hidden" src="images/ascender/cs/protoArrows.jpg">
                     </div>
                     <div class="col-md-3">
+                    </div>
+
+                    <div class="col-md-12">
+                        
                     </div>
 
                     <div class="col-md-2">
                     </div>
                     <div class="col-md-8">
-                        
-                        <img src="images/ascender/cs/siteMap.jpg">
-                    
+                        <a class="lightbox_trigger" href="https://design.dscottclark.com/portfolio/test/images/ascender/cs/siteMap.jpg">
+                            <img  src="images/ascender/cs/siteMap.jpg">
+                        </a>
                     </div>
                     <div class="col-md-2">
                     </div>
@@ -720,7 +748,7 @@
                         Special thanks to:<br>
                         Sarah Rizza for the incredible background illustrations. <a href="https://www.instagram.com/yodarizza/">@yodarizza</a></p>
 
-                        <p>The majority of the climbing images are mine <a href="https://www.instagram.com/dscottclarkphoto/">@dscottclarkphoto</a>,but several images were used from Nathalie DuPre <a href="https://www.instagram.com/nd_pics/">@nd_pics</a>, who has photographed far more in the Chattanooga region than I have. Thank you. 
+                        <p>The majority of the climbing images are mine <a href="https://www.instagram.com/dscottclarkphoto/">@dscottclarkphoto</a>, but several images were used from Nathalie DuPre <a href="https://www.instagram.com/nd_pics/">@nd_pics</a>, who has photographed far more in the Chattanooga region than I have. Thank you. 
                         </p>
                     </div>
                     <div class="col-md-2">
@@ -827,5 +855,6 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/lightbox.js"></script>
     </body>
 </html>
