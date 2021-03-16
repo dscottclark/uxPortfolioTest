@@ -1,87 +1,123 @@
-<!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width">
-        <title>Dept of the Inteior Website Redesign</title>
-        <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHRN4C0HJM"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dept of the Inteior Website Redesign</title>
+    <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
+    <meta property="og:image" content="images/doi.jpg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHRN4C0HJM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-            gtag('config', 'G-FHRN4C0HJM');
-        </script>
-        <link rel="icon" type="image/png" href="images/favicon.png"/> 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/UXPortfolioStyle.css">
-        <link rel="stylesheet" href="css/UXPortfolioStyle-child.css">
-        <link rel="stylesheet" href="css/UXPortfolioStyle-mobile.css">
-        <link rel="stylesheet" href="css/caseStudyStyle.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/universal.js"></script>
-        <style>
-            #intro {
-                background-image: url(images/GovRedesign/introDesktop.jpg);
-                
+    gtag('config', 'G-FHRN4C0HJM');
+    </script>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/styles-cs.css" rel="stylesheet" />
+
+
+    <style>
+        header.masthead {
+            background-image: url(images/GovRedesign/introDesktop.jpg);
             }
+        .sectionHeader {
+            background-color: #475e35;
+        }
+
+        #ia img {
+            padding: 0 0 2rem;
+        }
+
+    </style>
+    <script src="js/universal.js"></script>
+  </head>
+  <body id="page-top">
+      <header>
+
+        <div id="navBG">
             
-            @media only screen and (max-width: 640px){
-                #intro {
-                background-image: url(images/GovRedesign/introMobile.jpg);
-                
-                }
-                
-                #social {
-                top:0;
-                padding-bottom: 4rem;
-                }
-            }
-            
-        </style>
-    </head>
-    <body>
-        <section id="headerBG">
-            
-        </section>
-        <header id="header">
-            <div id="logo">
-                <a href="index.html">
-                    <img src="icons/dscottdesign.svg">
-                </a>
-                
+        </div>
+        
+        <nav id="mainMenu" class="navbar navbar-expand-lg navbar-dark navbar-fixed-top " >
+            <div class="max-width">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-left">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="design.html">design<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="photo.html">photography</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html" >contact</a>
+                    </li>
+                </ul>
+                </div>
             </div>
-        </header>
-            <section id="introContent">
-                <div id="intro">
+        </nav>
+        <div id="logo">
+                    <a href="design.html">
+                        <img src="icons/dscottdesign.svg">
+                    </a>
                     
-                    <div class="heroText">
-                        <img class="heroDesktop" src="images/GovRedesign/DoiMock.webp">
-                        <h1>U.S. Department of the Interior</h1>
-                        <h3>website redesign concept</h3>
-                    </div>
-                </div>
-                
-            </section>
-            <nav id="csMenu">
-                <div class="Btn">
-                    case study menu
-                </div>
-                <div class="dropdown">
-                    <ul>
-                        <li><a href="#research">empathy</a></li>
-                        <li><a href="#styleTile">definition</a></li>
-                        <li><a href="#heuristic">heuristic evaluation</a></li>
-                        <li><a href="#siteMap">site map</a></li>
-                        <li><a href="#wireframes">wireframes</a></li>
-                    </ul>
-                </div>
-            </nav>
+            </div>
+    </header>
+    <header class="masthead">
+        <div class="max-width">
+            <!-- <div class="max-width"> -->
+                <img class="hidden" src="images/GovRedesign/introDesktop.jpg">
+                <img class="heroDesktop" src="images/GovRedesign/DoiMock.png">
+                <div class="masthead-heading text-uppercase">U.S. Department of the Interior</div>
+                <div class="masthead-subheading">website redesign concept
+
+            <!-- </div> -->
+        </div>
+    </header>
+    <!-- Submenu -->
+    <nav id="subMenu" class="navbar navbar-expand-lg navbar-dark sticky-top " >
+        <div class="max-width">
+            <a class="navbar-brand" href="#">Case Study Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sub-navbarNav" aria-controls="sub-navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="icons/chevron-right.svg"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="sub-navbarNav">
+            <ul class="sub-navbar-nav nav-right">
+                <li class="nav-item active">
+                <a class="nav-link" href="#empathy">empathy<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#definition">definition</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ideation">ideation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#prototype" >prototype</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#final" >final UI design</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
             <div id="caseStudy">
                      
                 <img src="images/GovRedesign/caseStudy/Slide%2002.png" alt="Project Overview">
@@ -233,16 +269,24 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
             }
         </script>
-        <div class="preloader">
-        </div>
-        <script>
-            $(document).ready(function(){
-            function fade(){
-            $(".preloader").fadeOut("slow");
-            };
+        <!-- <div class="preloader">
+        <img src="icons/dscottdesign.svg">
+    </div> -->
+    
 
-            setTimeout(fade, 1000);
-        })
-        </script>
-    </body>
-    </html>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/scroll.js"></script>
+    <!-- <script>
+        function fade(){
+        $(".preloader").fadeOut("slow");
+        };
+
+        setTimeout(fade, 1500);
+    </script> -->
+  </body>
+</html>
