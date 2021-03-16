@@ -311,7 +311,6 @@ iframe {
     padding: 2rem;
     position: absolute;
     text-align: center;
-    width: 13.5vw;
     font-size: 2vw;
 
 }
@@ -423,7 +422,7 @@ iframe {
     }
 
     .hideDesktop {
-        display: none;
+        display: none !important;
     }
 
     #otherProjects h2{

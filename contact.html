@@ -1,135 +1,120 @@
-<!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width">
-        <title>Contact D. Scott Clark UX/UI Designer</title>
-        <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHRN4C0HJM"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact D. Scott Clark UX/UI Designer</title>
+    <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
+    <meta property="og:image" content="images/doi.jpg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHRN4C0HJM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-        gtag('config', 'G-FHRN4C0HJM');
-        </script>
-        <link rel="icon" type="image/png" href="images/favicon.png"/>
-        <link rel="icon" type="image/png" href="images/favicon.png"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/UXPortfolioStyle.css">
-        <link rel="stylesheet" href="css/UXPortfolioStyle-mobile.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/universal.js"></script>
-        
-        <style>
-            body {
-                background-color: #252526;
+    gtag('config', 'G-FHRN4C0HJM');
+    </script>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-about.css">
+
+
+    <style>
+        body {
+            background-color: #19191b;
+        }
+
+        #navBG {
+            background-color: #111113;
+        }
+
+        #hello {
+            height: 100%;
+            padding:0;
+            margin: 0;
+        }
+
+        #hello .max-width {
+            height: 100%;
+            padding:0;
+        }
+
+        #social {
+            position: fixed;
+            bottom:0;
+            top:unset;
+        }
+
+        @media screen and (max-width: 992px) {
+            #hello .max-width {
+                overflow: auto;
+                margin:6rem auto;
+
+            }
+
+            #hello img{
+            height: 30px;
+            width: 30px;
+            margin:unset;
             }
             
-            #hello {
-                background-color: #252526;
-                width: 100%;
-                margin-bottom: -84px;
-                overflow-y: scroll;
-                min-height: 100%;
-                    
-            }
-            .contact {
-                font-family: montserrat;
-                font-weight: 200;
-                font-size: .75em;
-                color: #ededed;
-                width: fit-content;
-                position: absolute;
-                top:12%;
-                left: 50%;
-                transform: translate(-50%);
-                text-align: center;
-                padding-bottom: 8rem;
-            }
-            #hello h1 {
-                width: 500px;
-                text-align: center;
-                right: 50%;
-                transform: translate(50%);
-                font-size: 3rem;
-                top:0px;
-                position: relative;
-                
-            }
-            #hello h2 {
-                font-size: 1.5em;
-                font-family: raleway;
-            }
-
-            #contactSocial {
-                position: relative;
-            }
-
-            #contactSocial ul {
-                display: inline-block;
-                margin:0;
-                padding:0 0 0 .8rem;
-            }
-
-            #contactSocial li {
-                padding:0 10px 0 0
-            }
-
-            #contactSocial a{
-                padding:0;
-                height: fit-content;
-            }
-
-            #contactSocial a:hover {
-                filter:opacity(.5)
-            }
-
-            #contactSocial img{
-                position: unset;
-                left: auto;
-                top:auto;
-                transform: rotate(0);
-                width:30px;
-                filter: invert(1) opacity(.9);;
-            }
-
-            #push {
-                height: 84px;
-            }
-
             #social {
+                position: relative;
                 bottom:0;
-                position: absolute;
-                top:unset;
-            }
-            
-            @media (max-width: 1080px) {
-                .contact {
-                    line-height: 2
-                }
                 
             }
-            @media (max-width: 640px) {
-                #hello h1 {
-                    left:auto;
-                }
-                
-            }
+        }
+    </style>
+    <script src="js/universal.js"></script>
+  </head>
+  <body>
+      <header>
+
+        <div id="navBG">
             
-        </style>
-    </head>
-    <body>
-        <header id="header">
-            
-                 
-        </header>
-        <section id="hello">
-            
+        </div>
+        
+        <nav id="mainMenu" class="navbar navbar-expand-lg navbar-dark navbar-fixed-top " >
+            <div class="max-width">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-left">
+                    <li class="nav-item">
+                    <a class="nav-link" href="design.html">design</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="photo.html">photography</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">about<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="contact.html" >contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="logo">
+                    <a href="design.html">
+                        <img src="icons/dscottdesign.svg">
+                    </a>
+                    
+            </div>
+    </header>
+    
+    <section id="hello">    
+        <div class="max-width">
             <div class="contact">
                 <h1>Get in Touch</h1>
                 <h2>location</h2>
@@ -154,11 +139,33 @@
                 
                 </div>
             </div>
-            <div class="push"></div>
-        </section>
-        <footer id="social">
+        </div>
+    </section>
+    
+    <footer id="social">
+
             
-        </footer>
-        
-    </body>
+    </footer>
+
+    <!-- <div class="preloader">
+        <img src="icons/dscottdesign.svg">
+    </div> -->
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/scroll.js"></script>
+    
+    <!-- <script>
+        function fade(){
+        $(".preloader").fadeOut("slow");
+        };
+
+        setTimeout(fade, 1500);
+    </script> -->
+  </body>
 </html>

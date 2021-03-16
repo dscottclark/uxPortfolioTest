@@ -6,5 +6,9 @@ $(document).ready(function(){
         $("#social").load("universal/footer.html");
 });
 
-
+$(document).click(function(e) {
+    if (!$(e.target).is('a')) {
+        $('.collapse').collapse('hide');        
+    }
+});
 

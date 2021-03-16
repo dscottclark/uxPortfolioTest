@@ -6,9 +6,32 @@
         font-size: 3.1rem;
     }
 }
+@media (min-width: 1200px)
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container-md, .container-sm, .container {
+    max-width: 720px;
+}
+
+@media (min-width: 576px)
+.container-sm, .container {
+    max-width: 540px;
+}
 html {
     scroll-behavior: smooth;
   }
+
+body {
+    background-color: #fff;
+    color:#222;
+    font-weight: 400;
+}
 
 ul {
     list-style-type: unset;
@@ -16,6 +39,21 @@ ul {
 
 li {
     float: unset;
+}
+
+h4 {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #222;
+    font-family: Montserrat;
+}
+
+.container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #lightbox {
@@ -39,14 +77,58 @@ li {
     font-weight: 600;
     cursor: pointer;
     }
-    #lightbox img {
-    box-shadow:0 0 25px #111;
-    max-width:940px;
-    }
+#lightbox img {
+box-shadow:0 0 25px #111;
+max-width:940px;
+}
 
 #header {
     display: flex;
     align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+header.masthead {
+    padding-bottom: 2rem;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+}
+
+header.masthead .max-width {
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px)
+header.masthead .masthead-heading {
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 4.5rem;
+    
+}
+
+header.masthead .masthead-heading {
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 3.25rem;
+    margin-bottom: .5rem;
+    font-family: "Raleway", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header.masthead .masthead-subheading {
+    font-size: 2.5vw;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    font-weight:100;
 }
 
 header ul{
@@ -58,12 +140,66 @@ header li {
     margin:0;
 }
 
+
+
+.page-section h2.section-heading {
+    color: rgb(148, 0 ,0);
+    font-size: 2rem;
+    padding: 3rem 0 0 0;
+}
+
+.my-3 {
+    margin:3rem 0 2rem;
+}
+
+
+@media (min-width: 992px)
+.navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
 .navbar {
     padding: 0;
 }
 
+.navbar-dark .navbar-toggler {
+    border:hidden;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 1px;
+}
+
 #subMenu {
-    height: 52px;
+    height: 50px;
+    background-color: #2B2B2D;
+}
+
+#subMenu a{
+    color: #999;
+}
+
+.navbar-brand {
+    cursor:default;
+    color:#999 !important;
+}
+
+#subMenu .max-width {
+    align-items: center;
+    justify-content: center;
+    width: 870px;
+}
+
+#subMenu .sub-navbar-nav {
+    position: relative;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
 }
 
 li a:hover {
@@ -76,13 +212,16 @@ li a:hover {
   
 .heroMobile {
     width: 23vw;
-    padding-bottom: 2rem;
+    padding: 8rem 0 4rem;
     max-width: 460px;
     
 }
 
 .sticky-top {
-    top:80px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 84px;
+    z-index: 400;
 }
 
 #subMenu .navbar-nav .nav-item .nav-link {
@@ -207,8 +346,66 @@ section .heroSpread {
     .navbar-nav {
         align-items: flex-end;
     }
+
+    button:focus {
+        margin-left: 0;
+    }
     .sticky-top {
-        top:79px;
+        top:50px;
+    }
+
+    #subMenu .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #subMenu button:focus {
+        outline: none;
+    }
+
+    #subMenu .navbar-toggler-icon {
+        left: unset;
+        margin: 3px 0 0 6rem;
+        opacity: 0.5;
+    }
+
+    #subMenu .navbar-brand {
+        position: absolute;
+    }
+
+    #subMenu .navbar-collapse {
+        margin: 0 auto;
+        width: max-content;
+        padding: 0 2rem;
+        position: absolute;
+        left: unset;
+    }
+
+    #subMenu .navbar-toggler-icon {
+        background-image: url(icons/chevron-right.svg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        transform: translate(-2rem);
+    }
+    #subMenu .navbar-toggler-icon img{
+        height: 20px;
+        transform: rotate(90deg);
+    }
+
+    #subMenu .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        left:0;
+        width: 0;
+        margin: 0 0 0 5rem;
+    }
+
+    #subMenu .sub-navbar-nav {
+        flex-direction: column;
+        height: max-content;
+        padding: 0 2rem 2rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #2b2b2d;
     }
 
     #subMenu .container-fluid {
@@ -216,6 +413,7 @@ section .heroSpread {
         background-color: #343a40 ;
         display: flex;
         justify-content: center;
+        height: 50px;
     }
 
     #subMenu ul {
@@ -226,7 +424,7 @@ section .heroSpread {
     }
 
     #subMenu li {
-        padding:10px 0;
+        padding:1rem 1rem 0;
     }
     
     .heroMobile {
@@ -248,15 +446,14 @@ section .heroSpread {
         font-size: 1rem;
         padding:15px 10px;
     }
-    .fixed-top {
-        position: absolute;
-    }
-    .sticky-top {
-        top: 0;
-    }
     
     .heroMobile {
         width: 50vw;
+    }
+
+    header.masthead {
+        padding-top:5rem;
+        padding-bottom:1rem;
     }
     header.masthead .masthead-heading {
         font-size: 13vw;

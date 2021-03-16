@@ -13,5 +13,6 @@
 // });
 
 $(window).scroll(function(){
-    $('nav').toggleClass('scrolled', $(this).scrollTop() >= 100);
+    $('#navBG').toggleClass('scrolled', $(this).scrollTop() >= 50);
+    console.log('scrolled');
 });

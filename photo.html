@@ -1,160 +1,84 @@
-<!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width">
-        <title>D. Scott Clark Photographer</title>
-        <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHRN4C0HJM"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Photography - D. Scott Clark UX/UI Designer</title>
+    <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
+    <meta property="og:image" content="images/doi.jpg" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHRN4C0HJM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-            gtag('config', 'G-FHRN4C0HJM');
-        </script>
-        <meta property="og:image" content="images/doi.jpg" />
-        <link rel="icon" type="image/png" href="images/favicon.png"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/UXPortfolioStyle.css">
-        <link rel="stylesheet" href="css/UXPortfolioStyle-mobile.css">
+    gtag('config', 'G-FHRN4C0HJM');
+    </script>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-about.css">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/universal.js"></script>
 
-        <style>
-            #social {
+    <style>
+        body {
+            background-color: #19191b;
+        }
+        #social {
                 position: fixed;
                 bottom:0;
                 top:auto;
             }
+    </style>
+    <script src="js/universal.js"></script>
+  </head>
+  <body>
+      <header>
 
-            #photoContent {
-                position: relative;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                justify-content: center;
-                align-items: flex-start;
-                width:80%;
-                max-width: 2000px;
-                margin: 0 auto;
-                top:6rem;
-            }
-
-            #photoContent > div {
-                margin:1rem;
-            }
-
-            #photographer {
-                position: sticky;
-                top:7rem;
-                left:0;
-                right:0;
-                overflow: scroll;
-                width: 35%;
-            }
-
-            #sitePreview {
-                padding:2.25rem 0 6rem;
-                width:50%;
-                max-width:850px;
-                display: block;
-                
-            }
-
-            #sitePreview img {
-                width:45vw;
-                max-width: 850px;
-            }
-
-            #photoBig {
-                    display: block;
-                }
-            #photoSmall {
-                display: none;
-            }
-
-            @media (max-width: 1310px) {
-                #photoContent {
-                    width:90%
-                }
-
-                #photoContent a {
-                    color:#6A79FF;
-                }
-                
-                #photographer { width:40%;
-                }
-            }
-
-            @media (max-width: 1230px) {
-                #photographer { width:45%;
-                }
-            }
-
+        <div id="navBG">
             
-            @media (max-width: 1080px) {
-                #photoContent {
-                    width:95%
-                }
-                
-                #photographer { width:50%;
-                }
-                
-                #social {
-                    padding-bottom: 2rem;
-                }
-            }
-
-            @media (max-width: 914px) {
-                #photoContent {
-                    flex-wrap: wrap;
-                    top:4rem;
-                }
-
-                #photographer {
-                    position: unset;
-                    width:80%;
-                }
-
-                #sitePreview {
-                    width:100%;
-                    min-width: 360px;
-                    padding-bottom:11rem;
-
-                }
-                #sitePreview img {
-                    width:80vw;
-                    min-width: 360px;
-                    margin:0 auto;
+        </div>
+        
+        <nav id="mainMenu" class="navbar navbar-expand-lg navbar-dark navbar-fixed-top " >
+            <div class="max-width">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-left">
+                    <li class="nav-item">
+                    <a class="nav-link" href="design.html">design</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="photo.html">photography</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">about<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                    <a class="nav-link" href="contact.html" >contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="logo">
+                    <a href="design.html">
+                        <img src="icons/dscottdesign.svg">
+                    </a>
                     
-                }
-
-                #photoBig {
-                    display: none;
-                }
-                #photoSmall {
-                    display: block;
-                }
-
-                #social {
-                    position: relative;
-                }
-
-            }
-
-        </style>
-    </head>
-    <body>
-        <header id="header">
-            
-        </header>
-        <section id="photoContent">
+            </div>
+    </header>
+    
+    <section id="photoContent">    
+        <div class="max-width">
             <div id="photographer">
                 <h2>
                     I am also a photographer
@@ -173,9 +97,33 @@
             <div id="sitePreview">
                 <a href="https://www.dscottclarkphoto.com/" target="_blank"><img id="photoBig"  src="images/photography.jpg"><img id="photoSmall" src="images/photographyFade.jpg"></a>
             </div>
-        </section>
-        <footer id="social">
+        </div>
+    </section>
+    
+    <footer id="social">
+
             
-        </footer>
-    </body>
+    </footer>
+
+    <!-- <div class="preloader">
+        <img src="icons/dscottdesign.svg">
+    </div> -->
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/scroll.js"></script>
+    
+    <!-- <script>
+        function fade(){
+        $(".preloader").fadeOut("slow");
+        };
+
+        setTimeout(fade, 1500);
+    </script> -->
+  </body>
 </html>
