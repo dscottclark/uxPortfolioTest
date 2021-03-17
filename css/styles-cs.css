@@ -72,6 +72,7 @@ h4 {
     justify-content: center;
     align-items: center;
     z-index: 500;
+    transition: all .3s ease-in-out;
 }
 
 #lightbox p {
@@ -85,7 +86,8 @@ h4 {
 #lightbox img {
 box-shadow:0 0 25px #111;
 max-width: 1500px;
-max-height: 80vh;
+max-height: 100vh;
+object-fit: cover;
 }
 
 #header {
@@ -114,12 +116,14 @@ header.masthead .max-width {
     align-items: center;
 }
 
-@media (min-width: 768px)
+
+
+@media (min-width: 768px) {
 header.masthead .masthead-heading {
     font-size: 4vw;
     font-weight: 900;
     line-height: 4.5rem;
-    
+    }
 }
 
 header.masthead .masthead-heading {
@@ -136,6 +140,25 @@ header.masthead .masthead-subheading {
     line-height: 2.25rem;
     margin-bottom: 2rem;
     font-weight:100;
+}
+
+@media screen and (min-width: 2000px) {
+    header.masthead .masthead-heading {
+        font-size: 6rem;
+    }
+    header.masthead .masthead-subheading {
+        font-size: 3.5rem;
+        line-height: 6.25rem;
+    }
+    
+}
+
+@media screen and (min-width: 2000px) {
+    header.masthead {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+    
 }
 
 header ul{
@@ -281,7 +304,7 @@ a.portfolioAnchor {
 }
 
 .page-section {
-    padding:6rem 0;
+    padding:2rem 0;
 }
 
 .page-section .max-width {
@@ -327,7 +350,6 @@ a.portfolioAnchor {
 
 .CSheroImage {
     width: 100%;
-    max-width: 2000px;
     margin: 0 auto;
 }
 
@@ -381,6 +403,10 @@ section .heroSpread {
     min-height: 700px;
 }
 
+#video iframe{
+    height: 650px;
+}
+
 #final p{
     color:#ededed;
 }
@@ -427,6 +453,8 @@ section .heroSpread {
 .portfolioLink img{
     width: 17vw;
     height: 17vw;
+    max-width: 500px;
+    max-height: 500px;
     display: block;
 }
 
@@ -449,7 +477,6 @@ section .heroSpread {
 .portfolioLink:hover h3 {
     opacity: 1;
 }
-
 
 
 @media screen and (max-width: 992px) {
@@ -564,7 +591,7 @@ section .heroSpread {
         padding:15px 10px;
     }
     
-    .heroMobile {
+    img.heroMobile {
         width: 50vw;
     }
 

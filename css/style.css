@@ -61,12 +61,12 @@ a {
     color:#ededed;
 }
 
-.hideMobile {display: block;}
-.hideDesktop {display: none;}
+.hideMobile {display: block !important;}
+.hideDesktop {display: none !important;}
 
 @media screen and (max-width: 992px) {
-    .hideMobile {display: none;}
-    .hideDesktop {display: block;}
+    .hideMobile {display: none !important;}
+    .hideDesktop {display: block !important;}
 }
 
 a:hover {
@@ -348,3 +348,45 @@ header {
     }
 
 }
+
+#myBtn {
+    position: fixed;
+    width: 8rem;
+    max-width: 100px;
+    right: 10%;
+    bottom: 0;
+    background: none;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    opacity: 0;
+    transition: 100ms;
+}
+
+#myBtn:hover {
+    opacity: 1;
+    max-width: 120px;
+    margin: 0 2px 5px 0;
+}
+
+.btnScrolled {
+    opacity: .3 !important;
+}
+
+.btnScrolled:hover {
+    opacity: 1 !important;
+}
+
+@media screen and (max-width: 992px) {
+    #myBtn {
+        right: unset;
+        bottom: unset;
+        top: 100px;
+        margin: 0 auto;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .btnScrolled {
+        opacity: .5 !important;
+    }
+}
+

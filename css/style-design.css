@@ -169,7 +169,7 @@
 
 .heroImage {
     position: relative;
-    left:25%;
+    left:10%;
 }
 
 .threeMobiles img{
@@ -200,7 +200,7 @@
     top: 0;
     left: 0;
     text-align: left;
-    padding: 0;
+    padding: 2rem 0 0 2rem;;
     text-decoration: none;
     width: 10vw;
 }
@@ -213,7 +213,7 @@
     text-align: left;
     width: 250px;
     left: 0;
-    padding: 0;
+    padding: 0 0 0 2rem;
 }
 .heroText a {
     font-family: raleway;
@@ -410,12 +410,13 @@ background: linear-gradient(90deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0
         position: absolute;
         z-index: 5;
         display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
         width: 100vw;
         height: 100vw;
         margin:0;
-        padding: 0 0 1rem 0;
+        padding: 0 0 3rem 0;
         background-color: rgba(0,0,0,.4);
     }
 
@@ -439,8 +440,8 @@ background: linear-gradient(90deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0
     }
     .heroText h3{
         width:unset;
-        text-align: unset;
-        font-size: 6vw;
+        text-align: center;
+        font-size: 4vw;
     }
 
     

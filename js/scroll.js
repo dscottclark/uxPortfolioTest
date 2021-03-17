@@ -16,3 +16,7 @@ $(window).scroll(function(){
     $('#navBG').toggleClass('scrolled', $(this).scrollTop() >= 50);
     console.log('scrolled');
 });
+$(window).scroll(function(){
+    $('#myBtn').toggleClass('btnScrolled', $(this).scrollTop() >= 900);
+    console.log('back to top button scrolled');
+});
