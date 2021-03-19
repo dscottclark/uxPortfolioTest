@@ -265,7 +265,7 @@ li a:hover {
     position: -webkit-sticky;
     position: sticky;
     top: 84px;
-    z-index: 400;
+    z-index: 199;
 }
 
 #subMenu .navbar-nav .nav-item .nav-link {
@@ -549,7 +549,7 @@ section .heroSpread {
         padding: 0 2rem 2rem;
         justify-content: flex-start;
         align-items: flex-start;
-        background-color: #2b2b2d;
+        background-color: #353536;
     }
 
     #subMenu .container-fluid {
