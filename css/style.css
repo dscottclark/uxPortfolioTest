@@ -389,12 +389,12 @@ header {
 
 @media screen and (max-width: 992px) {
     #myBtn {
-        right: unset;
+        right: 0;
         bottom: unset;
-        top: 100px;
+        top: 57px;
         margin: 0 auto;
-        left: 50%;
-        transform: translate(-50%);
+        width: 4rem;
+        
     }
     .btnScrolled {
         opacity: .5 !important;

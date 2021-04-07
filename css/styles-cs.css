@@ -53,6 +53,12 @@ h4 {
     font-family: Montserrat;
 }
 
+@media screen and (max-width: 992px) {
+    #myBtn {
+        top:100px;
+    }
+}
+
 .container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
     width: 100%;
     padding-right: 0.75rem;
