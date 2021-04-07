@@ -159,27 +159,6 @@ a.anchor{
     width: 100%;
 }
 
-.port{
-    position: relative;
-    width: 100%;
-    left: 0;
-    top: 0;
-    height: max-content;
-    overflow: hidden;
-    height: 395px;
-    z-index: 5;
-}
-
-
-.dark2 {
-    background-color:#2b2b2d;
-}
-
-.dark1 {
-    background-color:#19191b;
-}
-
-
 .heroText {
     position: absolute;
     display: flex;
@@ -222,6 +201,12 @@ a.anchor{
 
 .portItem.blank {
     background-color: #414144;
+}
+
+@media (max-width: 992px) {
+    .heroText:active {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 670px) {
