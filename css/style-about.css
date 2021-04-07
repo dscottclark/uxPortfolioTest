@@ -1,6 +1,4 @@
-ul {
-    list-style-type: none;
-}
+ 
 
 li {
     float: left;
@@ -24,11 +22,6 @@ li {
     max-height: 800px;
 }
 
-/* .about {
-    margin-top: 6vw;
-    position: relative;
-    top:6vw;
-} */
 
 #skills {
     position: relative;
@@ -86,6 +79,11 @@ ul.card {
     max-height: 1400px;
     width:100vw;
     
+}
+
+.about img{
+    width: 32px;
+    filter: invert(1);
 }
 
 #resume .max-width {

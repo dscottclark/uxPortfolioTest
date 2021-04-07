@@ -196,6 +196,10 @@ header {
     }
 }
 @media screen and (max-width: 992px) {
+    .preloader img{ 
+        width: 60%;
+    }
+   
     #navBG {
         background-color: #19191b;
         height: 50px;
@@ -328,6 +332,13 @@ header {
 
     #social img{
         padding:0 0 .5rem;
+    }
+
+    .first {
+        margin-left:-30px;
+    }
+    .second {
+        margin-left:30px;
     }
 
     .separator {
