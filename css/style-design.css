@@ -48,7 +48,7 @@ a.anchor{
     font-size: 25px;
     font-weight: 200;        
     color: #ededed;  
-    top:100px;  
+    top:165px;  
     display: flex;
     flex-direction: row;
     width: max-content;
@@ -173,6 +173,7 @@ a.anchor{
 }
 .heroText:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .heroText h1{
@@ -187,6 +188,7 @@ a.anchor{
     text-decoration: none;
     width: 100%;
     max-width: 540px;
+    cursor: pointer;
 }
 .heroText h3{
     font-size: 2rem;

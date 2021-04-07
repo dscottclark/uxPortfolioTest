@@ -9,10 +9,9 @@
         <meta name="description" content="D. Scott Clark's UX/UI online portfolio.">
         <link rel="icon" type="image/png" href="images/favicon.png"/> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/UXPortfolioStyle.css">
-        <link rel="stylesheet" href="css/UXPortfolioStyle-child.css">
-        <link rel="stylesheet" href="css/UXPortfolioStyle-mobile.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;900&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="js/universal.js"></script>
@@ -23,6 +22,7 @@
             #header {
                 background-color: #19191B;
                 height: 84px;
+                position: fixed;
             }
 			.dratsContent {
 				display: flex;
@@ -47,6 +47,23 @@
 				margin-block-start: 5px;
 				margin-block-end: 5px;
 				font-size: 1.4rem;
+            }
+
+            .dratsContent button{
+                background-color: rgb(60, 60, 235);
+                width: 350px;
+                height: 50px;
+                color:#fff;
+                font-family: 'montserrat';
+                font-size: 1.8rem;
+                font-weight: 600;
+                margin:1rem 0;
+                border:none;
+                border-radius: 40px;
+                cursor: pointer;
+            }
+            .dratsContent button:hover{
+                opacity: .8;
             }
             
             #social {
@@ -82,7 +99,9 @@
 			<h1>404</h1>
 			<p>The page you're looking for isn't here.</p>
 			<p>I wish it was, but it's not.</p>
-			<p><a href="index.html">Back to safety!</a></p>
+            <a href="index.html">
+            <button>Back to Safety!</button>
+            </a>
 		</section>
 		<footer id="social">
             
