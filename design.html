@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-design.css">
+    <link href="fcf-assets/css/fcf.default.css" rel="stylesheet">
+    <link href="fcf-assets/css/fcf.default-custom.css" rel="stylesheet">
     <style>
         .anchor {
             display: block;
@@ -236,6 +238,9 @@
                                 branding
                             </li>
                             <li>
+                                iconography
+                            </li>
+                            <li>
                                 micro-interactions
                             </li>
                             <li>
@@ -310,33 +315,70 @@
     <section id="contact">    
         <div class="max-width">
             <div class="contact">
-                <h1>Get in Touch</h1>
-                <h2>location</h2>
-                [ denver, co ]
-                <h2>phone</h2>
-                [ 812.381.3800 ]
-                <h2>email</h2>
-                <span class="hideMobile">[ dscottclark.design@gmail.com ]</span>
-                <span class="hideDesktop">[ dscottclark.design<br>@gmail.com ]</span>
-                <h2>social</h2>
-                <div id="contactSocial">
-                    <ul>
-                        
-                        <li>
-                            <a href="https://www.instagram.com/dscottclarkphoto/" target="_blank"><img src="icons/instagram.svg"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/dscottclarkdesign/" target="_blank"><img src="icons/linkedin.svg"></a>
-                        </li>
-                        
-                        
-                    </ul>
+                <div id="contactCard">
+
+                    
+                    <h1>Get in Touch</h1>
+                    <div class="fcf-body">
+                        <div class="fcf-form-wrap">
+                            <div id="fcf-form">
+                                <form class="fcf-form-class" method="post" action="fcf-assets/fcf.process.php">
                 
+                                    <div class="fcf-field">
+                                        <label for="Name" class="fcf-label has-text-weight-normal">Your name</label>
+                                        <div class="fcf-control">
+                                            <input type="text" name="Name" id="Name" class="fcf-input is-full-width" maxlength="60"
+                                                data-validate-field="Name">
+                                        </div>
+                                    </div>
+                                    <div class="fcf-field">
+                                        <label for="Email" class="fcf-label has-text-weight-normal">Your email address</label>
+                                        <div class="fcf-control">
+                                            <input type="email" name="Email" id="Email" class="fcf-input is-full-width" maxlength="100"
+                                                data-validate-field="Email">
+                                        </div>
+                                    </div>
+                                    <div class="fcf-field">
+                                        <label for="Phone" class="fcf-label has-text-weight-normal">Your phone number (optional)</label>
+                                        <div class="fcf-control">
+                                            <input type="text" name="Phone" id="Phone" class="fcf-input is-full-width" maxlength="30"
+                                                data-validate-field="Phone">
+                                        </div>
+                                    </div>
+                                    <div class="fcf-field">
+                                        <label for="Message" class="fcf-label has-text-weight-normal">Your message</label>
+                                        <div class="fcf-control">
+                                            <textarea name="Message" id="Message" class="fcf-textarea" maxlength="3000" rows="5"
+                                                data-validate-field="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div id="fcf-status" class="fcf-status"></div>
+                                    <div class="fcf-field">
+                                        <div class="fcf-buttons">
+                                            <button id="fcf-button" type="submit" class="fcf-button is-link is-medium is-fullwidth">Send
+                                                Message</button>
+                                        </div>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                            <div id="fcf-thank-you" style="display:none">
+                                <!-- Thank you message goes below -->
+                                <p>Thanks for contacting us, we will get back in touch with you soon.</p>
+                                <!-- Thank you message goes above -->
+                            </div>
+                        </div>
+                    </div>
+                    <script src="fcf-assets/js/lang/fcf.en.js"></script>
+                    <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
+                    <script src="fcf-assets/js/fcf.form.js"></script>
                 </div>
+                
             </div>
         </div>
     </section>
-    <!-- <footer id="social">
+
+    <footer id="social">
         <div class="max-width">
             <ul>
                 <li class="icon first">
@@ -349,7 +391,7 @@
             </ul>
         </div>
             
-    </footer> -->
+    </footer>
     <script type="text/javascript">
     //Get the button:
         mybutton = document.getElementById("myBtn");

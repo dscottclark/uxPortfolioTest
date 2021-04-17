@@ -81,10 +81,7 @@ ul.card {
     
 }
 
-.about img{
-    width: 32px;
-    filter: invert(1);
-}
+
 
 #resume .max-width {
     flex-direction: column;
