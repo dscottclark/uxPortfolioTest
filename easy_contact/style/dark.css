@@ -1,0 +1,165 @@
+		body {
+		    font-family: "Montserrat","Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
+		    color: #D2D2D2;
+		    font-size: 13px;
+		    background-color : #EFEFEF;
+		}
+
+		 #contactForm
+		 {
+		 	margin: 70px auto;
+		 	max-width: 585px;
+	    		min-width: 200px;
+		 }
+		textarea, input, select {
+			padding: 4px; 
+			background-color : #EEE;
+			font-family: "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
+		    	color: #404040;
+		    	font-size: 13px;
+		    	border: 1px solid #AAA;
+		}
+		textarea:focus, input:focus, select:focus {
+			background-color : #FFF;
+		    	border: 1px solid #78AFE6;
+		    	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+		}
+		label{
+		    
+		    display: inline-block;
+		    width: max-content;
+		    float: left;
+		    margin: 6px 0px;
+		}
+		
+		#submit {
+			background-color: rgba(20, 129, 240, 1);
+			border: none;
+			color: white;
+			padding: 6px 58px;
+			border-radius: 40px;
+		}
+		#submit:hover {
+			background-color : #78AFE6
+		}
+		
+		.line {
+			border-top: 1px solid #CCC;
+			max-width: 800px;
+			margin: 17px 0px;
+		}
+		
+		
+		.header{
+			color: #FFF;
+			padding: 12px 20px;
+			margin: 0;
+			font-weight: 900;
+			font-family: 'Raleway';
+			font-size: 3rem;
+		}
+		.body {
+			padding: 18px 0;
+			border-top: 0px;
+			
+		}
+
+		#captcha {
+			width:50%;
+		}
+		#captchaImg {
+			margin: -45px 0 21px 55%;
+			height: 40px;
+			width: 70px;
+			border-radius: 7px;
+		}
+		
+		#successMessage {
+			border: 1px solid #85C04D;
+			background: url('../img/success_check.png') no-repeat scroll 7px 50%;
+			background-color: #C7FFC7;
+			background-size: 15px 15px;
+			color: black;
+			padding: 4px 30px;
+			font-size: 12px;
+			margin-bottom: 12px;
+			border-radius: 4px;
+			text-shadow: 1px 1px 0px #FDE6E4;
+			
+		}
+		.errorText {
+			color: black;
+			font-size: 12px;
+			margin-left: 0;
+			margin-top: 4px;
+			margin-bottom: 12px;
+			padding: 3px 29px;
+			max-width: 208px;
+			background: url('../img/error.gif') no-repeat scroll 7px 50% / 15px 15px rgba(248, 198, 198, 1);
+			border: 1px solid rgba(233, 132, 132, 1);
+			border-radius: 4px;
+			text-shadow: 1px 1px 0px #FDE6E4;
+		}
+		.errorAst {
+			color: red;
+			float: left;
+			position: absolute;
+			margin-left: -11px;
+		}
+		#genCaptcha {
+			margin-top: 10px;
+		}
+		.desc {
+			color: #FFF;
+			line-height: 23px;
+			font-size: 15px;
+			box-shadow: 0px 0px 3px rgba(0, 156, 255, 0.44);
+			padding: 9px;
+			background-color: #1b1b1d;
+			text-align: left;
+		}
+		.field {
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+
+		}
+		
+		.res {
+		width: 100%;
+		border-radius: 7px;
+		}
+		
+		input[type="checkbox"], input[type="radio"]{		
+			margin-top: 12px;
+			margin-right: 5px;
+		}
+		
+		.fileUploadDesc {
+			font-size: 11px;
+			font-style: italic;
+			margin-left: 150px;
+		}
+
+		
+		
+		@media only screen and (min-width: 0px) and (max-width: 800px) {
+			.res {
+				width: 100%;
+			}
+			
+			.fileUploadDesc {
+				font-size: 11px;
+				font-style: italic;
+				margin-left: 0px !important;
+			}
+			
+			#contactForm {
+			 	width: 98% !important;
+				max-width: none !important;
+			}
+			
+			.errorText {
+				margin-left: 0px !important;
+			}
+		}

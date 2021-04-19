@@ -1,4 +1,3 @@
-<!doctype html>
 <?php include 'easy_contact/inc/config.php'; ?>
 <html lang="en">
   <head>
@@ -460,4 +459,3 @@
             });
     </script>
   </body>
-</html>
