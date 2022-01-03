@@ -26,8 +26,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-design.css">
-    <link href="fcf-assets/css/fcf.default.css" rel="stylesheet">
-    <link href="fcf-assets/css/fcf.default-custom.css" rel="stylesheet">
+    
     <style>
         .anchor {
             display: block;
@@ -155,6 +154,19 @@
                             
                     <h1>Rocky Mountain Railroad Club</h1>
                     <h3>website redesign concept</h3>
+                </div>
+                <img src="images/logo/LogoMockup.jpg">
+            </a>   
+        </div>
+        <div class="portItem blank">
+           <img src="images/blank.svg">
+        </div>
+        <div class="portItem icon">
+            <a href="icon.html">
+                <div class="heroText">
+                            
+                    <h1>Logos & Icons</h1>
+                    <h3>a collection of designs</h3>
                 </div>
                 <img src="images/RMRC/MBPBG.jpg">
             </a>   

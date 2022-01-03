@@ -591,7 +591,26 @@ section .heroSpread {
         font-size: 4vw;
         line-height: 200%;
     }
+    #otherProjects .flexBox{
+        display: flex;
+        flex-flow: row;
+        height: max-content;
+    }
+    .portfolioLink {
+        margin:0 5px;
+    }
+    .portfolioLink img{
+        width: 30vw;
+        height: 30vw;
+        opacity: .5;
 
+    }
+    .portfolioLink h3{
+        padding: 1rem;
+        font-size: 4vw;
+        opacity: 1;
+        font-weight: 400;
+    }
 
 }
 
