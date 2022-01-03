@@ -158,9 +158,9 @@
                 <img src="images/logo/LogoMockup.jpg">
             </a>   
         </div>
-        <div class="portItem blank">
+        <!-- <div class="portItem blank">
            <img src="images/blank.svg">
-        </div>
+        </div> -->
         <div class="portItem icon">
             <a href="icon.html">
                 <div class="heroText">
