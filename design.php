@@ -155,25 +155,23 @@
                     <h1>Rocky Mountain Railroad Club</h1>
                     <h3>website redesign concept</h3>
                 </div>
-                <img src="images/logo/LogoMockup.jpg">
+                <img src="images/RMRC/MBPBG.jpg">
             </a>   
         </div>
         <!-- <div class="portItem blank">
            <img src="images/blank.svg">
         </div> -->
         <div class="portItem icon">
-            <a href="icon.html">
+            <a href="logo.html">
                 <div class="heroText">
                             
                     <h1>Logos & Icons</h1>
                     <h3>a collection of designs</h3>
                 </div>
-                <img src="images/RMRC/MBPBG.jpg">
+                <img src="images/logo/LogoMockup.jpg">
             </a>   
         </div>
-        <div class="portItem blank">
-           <img src="images/blank.svg">
-        </div>
+       
     </section>
     
     <a class="anchor" name="about"></a>
