@@ -114,7 +114,29 @@
                 <img src="images/ascender/ascenderHero.jpg">
             </a>
         </div>
-    
+        <div class="portItem easy">
+            <a href="easy.html">
+                <div class="heroText">
+                        
+                    <H1>Easy Expense</H1>
+                    <h3>Mobile Dashboard Redesign</h3>
+                    
+                </div>
+                <img src="images/easy/easyHero.jpg">
+            </a>
+        </div>
+        
+        
+        <div class="portItem ink">
+            <a href="ink.html">
+                <div class="heroText">
+                    <h1>Ink!</h1>
+                    <h3>interior-design
+                        mobile app concept</h3>
+                </div>
+                <img src="images/ink/portHero.jpg">
+            </a>
+        </div>
         <div class="portItem doi">
             <a href="deptInterior.html">
                 <div class="heroText">
@@ -127,15 +149,15 @@
             </a>
         </div>
         
-        <div class="portItem ink">
-            <a href="ink.html">
+        <div class="portItem rmrc">
+            <a href="rmrc.html">
                 <div class="heroText">
-                    <h1>Ink!</h1>
-                    <h3>interior-design
-                        mobile app concept</h3>
+                            
+                    <h1>Rocky Mountain Railroad Club</h1>
+                    <h3>website redesign concept</h3>
                 </div>
-                <img src="images/ink/portHero.jpg">
-            </a>
+                <img src="images/RMRC/MBPBG.jpg">
+            </a>   
         </div>
         <div class="portItem travelize">
             <a href="travelize.html">
@@ -148,19 +170,7 @@
                 <img src="images/Travelize/isometric.jpg">
             </a>
         </div>
-        <div class="portItem rmrc">
-            <a href="rmrc.html">
-                <div class="heroText">
-                            
-                    <h1>Rocky Mountain Railroad Club</h1>
-                    <h3>website redesign concept</h3>
-                </div>
-                <img src="images/RMRC/MBPBG.jpg">
-            </a>   
-        </div>
-        <!-- <div class="portItem blank">
-           <img src="images/blank.svg">
-        </div> -->
+        
         <div class="portItem icon">
             <a href="logo.html">
                 <div class="heroText">
@@ -170,6 +180,9 @@
                 </div>
                 <img src="images/logo/LogoMockup.jpg">
             </a>   
+        </div>
+        <div class="portItem blank">
+           <img src="images/blank.svg">
         </div>
        
     </section>

@@ -166,7 +166,7 @@ a.anchor{
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: calc(50vw - 7px);;
+    height: calc(50vw);;
     background-color: rgba(0,0,0,.8);
     transition: all .3s ease-in-out;
     opacity: 0;

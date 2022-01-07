@@ -44,144 +44,188 @@
             padding: 0 0 2rem;
         }
         #portfolio {
-    width: 100%;
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+            width: 100%;
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            background-color: #333;
 
-}
+        }
 
-#portfolio.max-width {
-    width: 100%;
-    max-width: 2000px;
-    padding: 0;
-}
+        #portfolio.max-width {
+            width: 100%;
+            max-width: 2000px;
+            padding: 0;
+        }
 
-.portItem {
-    width: 50%;
-    height: 50%;
-    max-width: 50%;
-}
+        .portItem {
+            width: 50%;
+            height: 50%;
+            max-width: 50%;
+        }
 
-.portItem img{
-    position: relative;
-    top:50%;
-    transform: translate(0, -50%);
-}
+        .portItem img{
+            position: relative;
+            top:50%;
+            transform: translate(0, -50%);
+        }
+        .logo {
+            width:100%;
+            height: 50vw;
+            padding: 10%;
+        }
 
-.logoDark {
-    background-image: url(images/logo/bgBlack.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 50vw;
-}
-.logoLight {
-    background-image: url(images/logo/bgLgt.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 50vw;
-    padding: 10%;
-}
-
-.lion {
-    padding: 15%;
-}
-
-.lion img{
-    filter: invert(1);
-}
-.monsoon img{
-    filter: invert(1);
-    padding: 30%;
-    height: 100%;
-    transform: translate(-50%, 0);
-    top: 0;
-    left: 50%;
-}
-
-.massif img{
-    filter: invert(1);
-    padding: 30%;
-    height: 100%;
-    transform: translate(-50%, 0);
-    top: 0;
-    left: 50%;
-}
-
-.ink img{
-    padding: 25%;
-    height: 100%;
-    transform: translate(-50%, 0);
-    top: 0;
-    left: 50%;
-}
-.lela img{
-    padding: 25%;
-    height: 100%;
-    transform: translate(-50%, 0);
-    top: 0;
-    left: 50%;
-}
-.biscotti img{
-    filter: invert(1);
-    padding: 25%;
-    height: 100%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-}
-.rock1 img{
-    padding: 30%;
-    height: 100%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-}
-
-.rock2 img{
-    padding: 20%;
-    height: 100%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-}
-.map img{
-    padding: 20%;
-    height: 100%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-}
-.spray img{
-    padding: 30%;
-    height: 100%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-}
+        .massif {
+            background-color: #421313;
+        }
+        .massif img{
+            filter: invert(1);
+            padding: 16%;
+            height: 100%;
+            transform: translate(-50%, 0);
+            top: 0;
+            left: 50%;
+        }
 
 
-.portItem.blank {
-    background-color: #414144;
-}
+        .ascend {
+            background-color: rgb(223, 250, 235);
+        }
+        .rmrc {
+            background-color: rgb(208, 223, 236);
+        }
 
-@media (max-width: 992px) {
-    .heroText:active {
-        opacity: 1;
-    }
-}
+        .monsoon {
+            background-color: #112b42;
+        }
+        .monsoon img{
+            filter: invert(1);
+            padding: 20%;
+            height: 100%;
+            transform: translate(-50%, 0);
+            top: 0;
+            left: 50%;
+        }
+        .lion {
+            background-color: #151515;
+            padding: 16%;
+        }
 
-@media screen and (max-width: 670px) {
-    .portItem {
-        width: 100%;
-        height: 100%;
-        max-width: 100%;
-    }
-    .portItem.blank {
-        display: none;
-    }
-}
+        .lion img{
+            filter: invert(1);
+        }
+        .ink {
+            background-color: rgb(238, 237, 237);
+        }
+        .ink img{
+            padding: 25%;
+            height: 100%;
+            transform: translate(-50%, 0);
+            top: 0;
+            left: 50%;
+        }
+        .lela {
+            background-color: #dbf1ff;
+        }
+        .lela img{
+            padding: 25%;
+            height: 100%;
+            transform: translate(-50%, 0);
+            top: 0;
+            left: 50%;
+        }
+        .biscotti {
+            background-color: #333;
+        }
+        .biscotti img{
+            filter: invert(1);
+            padding: 16%;
+            height: 100%;
+            width: 100%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+        }
+        .moonshine {
+            background-color: #647d8b;
+        }
+
+        .rock1 {
+            background-color: #201212;
+        }
+        .rock1 img{
+            padding: 30%;
+            height: 100%;
+            width: 100%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+        }
+        .rock2 {
+            background-color: #ddcdcd;
+        }
+        .rock2 img{
+            padding: 20%;
+            height: 100%;
+            width: 100%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+        }
+        .map {
+            background-color: #08250c;
+        }
+        .map img{
+            filter: invert(1);
+            padding: 20%;
+            height: 100%;
+            width: 100%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+        }
+        .spray {
+            background-color: #254B62;
+        }
+        .spray img{
+            padding: 30%;
+            height: 100%;
+            width: 100%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+        }
+
+
+        @media (min-width: 2000px) {
+            body {
+                background-color: #121212;
+            }
+            .masthead {
+                max-width: 2000px;
+                height: 666px !important;
+            }
+            header.masthead .masthead-subheading {
+                line-height: 7.5rem;
+            }
+            .logo {
+                height: 1000px;
+                width: 1000px;
+            }
+        }
+
+        @media screen and (max-width: 670px) {
+            .masthead {
+                height: 30vh;
+            }
+            .masthead-heading {
+                font-size: 8vw !important;
+            }
+            .portItem {
+                width: 100%;
+                height: 100vw;
+                max-width: 100%;
+            }
+            .portItem.blank {
+                display: none;
+            }
+        }
     </style>
     
   </head>
@@ -202,7 +246,7 @@
                     
             </div>
     </header>
-    <header class="masthead">
+    <header class="masthead max-width">
         <div class="max-width">
 
                 
@@ -213,51 +257,55 @@
         </div>
     </header>
     <section id="portfolio" class="max-width">
-        <div class="portItem logoDark lion">
-            <img src="images/logo/dscottlion.svg">
-            
-        </div>
-    
-        <div class="portItem logoLight ascend">
-           <img src="images/logo/ascender.svg">
-        </div>
-        
-        <div class="portItem logoLight rmrc">
-            <img src="images/logo/RMRC.svg">
-        </div>
-        <div class="portItem logoDark monsoon">
-            <img src="images/logo/Monsoon.svg">
-            
-        </div>
-        <div class="portItem logoDark massif">
+        <div class="portItem logo massif">
             <img src="images/logo/massiflogo.svg">
             
         </div>
-        <div class="portItem logoLight ink">
+        <div class="portItem logo ascend">
+           <img src="images/logo/ascender.svg">
+        </div>
+        
+        <div class="portItem logo rmrc">
+            <img src="images/logo/RMRC.svg">
+        </div>
+        <div class="portItem logo monsoon">
+            <img src="images/logo/Monsoon.svg">
+            
+        </div>
+        <div class="portItem logo lion">
+            <img src="images/logo/dscottlion.svg">
+            
+        </div>
+        <div class="portItem logo ink">
             <img src="images/logo/InkLogo.svg">
         </div>
-        <div class="portItem logoLight lela">
+        <div class="portItem logo lela">
             <img src="images/logo/Lela.svg">
         </div>
-        <div class="portItem logoDark biscotti">
+        <div class="portItem logo biscotti">
             <img src="images/logo/BiscottiFilmsLogo.svg">
             
         </div>
-        <div class="portItem logoDark rock1">
+        <div class="portItem logo moonshine">
+            <img src="images/logo/MoonShine.svg">
+            
+        </div>
+        <div class="portItem logo rock1">
             <img src="images/logo/icons/rock1.svg">
             
         </div>
-        <div class="portItem logoLight rock2">
-            <img src="images/logo/icons/rock2.svg">
-        </div>
-        <div class="portItem logoLight map">
+        <div class="portItem logo map">
             <img src="images/logo/icons/map.svg">
         </div>
-        <div class="portItem logoDark spray">
+        <div class="portItem logo rock2">
+            <img src="images/logo/icons/rock2.svg">
+        </div>
+        <div class="portItem logo spray">
             <img src="images/logo/icons/spray.svg">
             
         </div>
        
+
     </section>    
 
     <!--OTHER PROJECTS------------------------------------>       
@@ -265,6 +313,12 @@
         <div >
             <h2>Check out my other projects!</h2>
             <div class="flexBox">
+                <a href="ascender.html">
+                    <div class="portfolioLink">
+                        <img src="images/ascender/ascender.jpg">
+                        <h3>Ascender</h3>
+                    </div>
+                </a>
                 <a href="deptInterior.html">
                     <div class="portfolioLink">
                         <img src="images/GovRedesign/DOILink.jpg">
@@ -277,12 +331,7 @@
                         <h3>INK!</h3>
                     </div>
                 </a>
-                <a href="travelize.html">
-                    <div class="portfolioLink">
-                        <img src="images/Travelize/travelize.jpg">
-                        <h3>Travelize</h3>
-                    </div>
-                </a>
+                
 
             </div>
         </div>
